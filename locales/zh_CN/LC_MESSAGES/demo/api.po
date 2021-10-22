@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Read the Docs Sphinx Theme 1.0.1alpha1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 08:40+0800\n"
+"POT-Creation-Date: 2021-10-22 13:49+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,10 +46,9 @@ msgid ""
 "names and etc, but those will *always* have the ``.descname`` or "
 "``.descclassname`` class."
 msgstr ""
-"这段文字测试了从输出 ``sphinx.ext.autodoc`` 生成的文档字符串格式。"
-"其中包含 reST，但 Sphinx 将其嵌套在 ``<dl>`` 和 ``<dt>`` 标签中。"
-"另外，``<tt>`` 用于类，方法名等，"
-"但这些将有 ``.descname`` 或 ``.descclassname`` 类。"
+"这段文字测试了从输出 ``sphinx.ext.autodoc`` 生成的文档字符串格式。其中包含 reST，但 Sphinx 将其嵌套在 "
+"``<dl>`` 和 ``<dt>`` 标签中。另外，``<tt>`` 用于类，方法名等，但这些将有 ``.descname`` 或 "
+"``.descclassname`` 类。"
 
 #: of test_py_module.test.Foo:9
 msgid ""
@@ -76,7 +75,7 @@ msgstr ""
 #: ../../demo/api.rst of test_py_module.test.Foo.__init__
 #: test_py_module.test.Foo.add test_py_module.test.Foo.another_function
 #: test_py_module.test.Foo.capitalize
-msgid "Parameters"
+msgid "参数"
 msgstr ""
 
 #: of test_py_module.test.Foo.__init__:3
@@ -105,7 +104,7 @@ msgstr ""
 
 #: of test_py_module.test.Foo.add test_py_module.test.Foo.another_function
 #: test_py_module.test.Foo.capitalize
-msgid "Return type"
+msgid "返回类型"
 msgstr ""
 
 #: of test_py_module.test.Foo.another_function:1
@@ -128,7 +127,7 @@ msgid ""
 msgstr ""
 
 #: of test_py_module.test.Foo.another_function
-msgid "Returns"
+msgid "返回"
 msgstr ""
 
 #: of test_py_module.test.Foo.another_function:15
@@ -139,7 +138,7 @@ msgid ""
 msgstr ""
 
 #: of test_py_module.test.Foo.another_function
-msgid "Raises"
+msgid "引发"
 msgstr ""
 
 #: of test_py_module.test.Foo.another_function:20
@@ -329,4 +328,16 @@ msgstr ""
 #: ../../demo/api.rst:139
 msgid "Some data link :data:`Data_item_1`."
 msgstr ""
+
+#~ msgid "Parameters"
+#~ msgstr ""
+
+#~ msgid "Return type"
+#~ msgstr ""
+
+#~ msgid "Returns"
+#~ msgstr ""
+
+#~ msgid "Raises"
+#~ msgstr ""
 

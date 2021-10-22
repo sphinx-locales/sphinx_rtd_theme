@@ -103,7 +103,7 @@ msgid ""
 "``:hidden:`` option."
 msgstr ""
 "指定导航是否包括隐藏的内容目录--即"
-"任何被标记为 `:hidden:` 选项的 :rst:dir:`sphinx:toctree` 指令"。
+"任何被标记为 ``:hidden:`` 选项的 :rst:dir:`sphinx:toctree` 指令。"
 
 #: ../../configuring.rst:78
 msgid "When enabled, page subheadings are not included in the navigation."
@@ -111,7 +111,7 @@ msgstr "启用后，页面小标题不包括在导航中。"
 
 #: ../../configuring.rst:82
 msgid "False"
-msgstr ""
+msgstr "False"
 
 #: ../../configuring.rst:95
 msgid "Miscellaneous options"
@@ -186,9 +186,9 @@ msgid ""
 "``blob`` (default), ``edit``, or ``raw``. On Bitbucket, this can be "
 "either: ``view`` (default) or ``edit``."
 msgstr ""
-"改变了使用 ``display_github', ``display_gitlab`` 等文件时的查看方式。"
-"当使用 GitHub 或 GitLab 时，这可以是：``blob``（默认）。``edit``, 或 ``raw``。"
-"在 Bitbucket 上，这可以是 ``view``（默认）或 ``edit``。"
+"改变了使用 ``display_github``, ``display_gitlab`` 等文件时的查看方式。"
+"当使用 GitHub 或 GitLab 时，这可以是：``blob`` （默认），``edit`` 或 ``raw``。"
+"在 Bitbucket 上，这可以是 ``view`` （默认）或 ``edit``。"
 
 #: ../../configuring.rst:167
 msgid "``blob`` or ``view``"

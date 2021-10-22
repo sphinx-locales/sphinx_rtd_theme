@@ -29,7 +29,7 @@ msgid ""
 "take a minute to read the policy before starting with your first "
 "contribution."
 msgstr ""
-"本项目遵循 Read the Docs :doc:`code of conduct <rtd:code-of-conduct>`。"
+"本项目遵循 Read the Docs :doc:`行为规范 <rtd:code-of-conduct>`。"
 "如果你不熟悉我们的行为准则政策，请在开始你的第一次贡献之前花一分钟时间阅读该政策。"
 
 #: ../../contributing.rst:10
@@ -45,7 +45,7 @@ msgid ""
 msgstr ""
 "这个主题的样式使用 SASS_ 和一个名为 Wyrm_ 的自定义 CSS 框架。"
 "我们使用 Webpack_ 和 node-sass_ 来构建 CSS。"
-"Webpack_ 被用来观察变化，重建静态资产，以及重建 Sphinx 演示文档。"
+"Webpack_ 被用来观察变化，重建静态 assets，以及重建 Sphinx 演示文档。"
 
 #: ../../contributing.rst:17
 msgid ""
@@ -72,93 +72,103 @@ msgstr "进行修改"
 
 #: ../../contributing.rst:38
 msgid "Changes to the theme can be compiled and tested with Webpack_:"
-msgstr ""
+msgstr "对主题的修改可以用 Webpack_ 进行编译和测试："
 
 #: ../../contributing.rst:44
 msgid "This script will do the following:"
-msgstr ""
+msgstr "这个脚本将做以下工作："
 
 #: ../../contributing.rst:46
 msgid "Install and update any dependencies."
-msgstr ""
+msgstr "安装和更新任何依赖关系。"
 
 #: ../../contributing.rst:47
 msgid "Build the static CSS from SASS source files."
-msgstr ""
+msgstr "从 SASS 源文件建立静态 CSS。"
 
 #: ../../contributing.rst:48
 msgid "Build the demo documentation."
-msgstr ""
+msgstr "建立演示文档。"
 
 #: ../../contributing.rst:49
 msgid ""
 "Watch for changes to the SASS files and documentation and rebuild "
 "everything on any detected changes."
 msgstr ""
+"注意 SASS 文件和文档的变更，在检测到的任何变更上重建一切。"
 
 #: ../../contributing.rst:52
 msgid ""
 "Alternatively, if you don't need to watch the files, the release build "
 "script can be used to test built assets:"
 msgstr ""
+"另外，如果你不需要观察文件，可以使用发布构建脚本来测试构建的 assets："
 
 #: ../../contributing.rst:66
 msgid "Testing"
-msgstr ""
+msgstr "测试"
 
 #: ../../contributing.rst:68
 msgid ""
 "QA testing theme changes and pull requests is complex, due to backwards "
 "compatibility."
 msgstr ""
+"由于向后兼容，QA 测试主题变更和拉动请求很复杂。"
 
 #: ../../contributing.rst:71
 msgid "The following cases need to be tested with changes to CSS or JavaScript:"
-msgstr ""
+msgstr "以下情况需要在改变 CSS 或 JavaScript 的情况下进行测试。"
 
 #: ../../contributing.rst:73
 msgid ""
 "Multiple, modern browsers should be tested. We officially support back to"
 " IE11 at the moment"
 msgstr ""
+"应测试多种现代浏览器。我们目前正式支持回溯到 IE11"
 
 #: ../../contributing.rst:75
 msgid ""
 "Multiple viewport sizes should be tested for changes. We support large, "
 "tablet, and mobile viewport sizes"
 msgstr ""
+"应测试多种视口尺寸的变化。我们支持大尺寸、平板电脑和移动视口尺寸"
 
 #: ../../contributing.rst:77
 msgid ""
 "We currently support both the Sphinx HTML4 writer and HTML5 writer. This "
 "makes for some complex CSS selectors"
 msgstr ""
+"我们目前同时支持 Sphinx HTML4 和 HTML5 编写。这使得一些复杂的 CSS 选择器"
 
 #: ../../contributing.rst:79
 msgid ""
 "Multiple major versions of Sphinx should be tested. We currently support "
 "back to Sphinx version ``1.6``"
 msgstr ""
+"多个主要版本的 Sphinx 应该被测试。我们目前支持回溯到 Sphinx 版本 ``1.6``"
 
 #: ../../contributing.rst:82
 msgid "It's easiest to test combinations of dependency versions using ``tox``:"
-msgstr ""
+msgstr "使用 ``tox`` 来测试依赖版本的组合是最简单的："
 
 #: ../../contributing.rst:88
 msgid ""
 "If the tests and build are successful, you can view the built "
 "documentation at the directory noted by Sphinx:"
 msgstr ""
+"如果测试和构建成功，你可以在 Sphinx 指出的目录中查看构建的文档："
 
 #: ../../contributing.rst:100
 msgid "You can then open up this path with a series of browsers to test."
-msgstr ""
+msgstr "然后你可以用一系列的浏览器打开这个路径进行测试。"
 
 #: ../../contributing.rst:102
 msgid ""
 "The best way to spot UI issues is to compare two or more builds. You can "
 "build multiple ``tox`` environments, and open both up for comparison:"
 msgstr ""
+"发现用户界面问题的最好方法是比较两个或更多的构建。"
+"你可以建立多个 ``tox`` 环境，并将两者打开进行比较："
 
 #: ../../contributing.rst:114
 msgid ""
@@ -169,14 +179,19 @@ msgid ""
 "branch or tag before building the same ``tox`` environment for the pull "
 "request branch you are testing."
 msgstr ""
+"你也可以使用一个单独的 ``tox`` 环境来建立输出来进行比较。"
+"所有的 ``tox`` 环境都有一个额外的后缀 ``-qa``，"
+"允许在不覆盖任何文件的情况下建立同一个环境两次。"
+"在这个测试场景中，你将从一个分支或标签开始构建，"
+"然后为你正在测试的拉动请求分支构建相同的 ``tox`` 环境。"
 
 #: ../../contributing.rst:120
 msgid "For example, to test against the tag ``0.5.2``:"
-msgstr ""
+msgstr "例如，针对标签 ``0.5.2`` 进行测试："
 
 #: ../../contributing.rst:133
 msgid "Currently, the most important environments to QA are:"
-msgstr ""
+msgstr "目前，对 QA 最重要的环境是："
 
 #: ../../contributing.rst:139
 msgid "``py3-sphinx18-html4``"
@@ -212,7 +227,7 @@ msgstr ""
 
 #: ../../contributing.rst:149
 msgid "Translations"
-msgstr ""
+msgstr "翻译"
 
 #: ../../contributing.rst:151
 msgid ""
@@ -221,6 +236,9 @@ msgid ""
 "project. For more information on our translation standards, see our docs "
 "on :doc:`rtd:development/i18n`"
 msgstr ""
+"翻译是使用 `Transifex`_ 管理的。"
+"你可以加入任何一个现有的语言团队，或者要求在项目中加入一个新的语言。"
+"关于我们的翻译标准的更多信息，请看我们在  :doc:`rtd:development/i18n`  的文档"
 
 #: ../../contributing.rst:156
 msgid ""
@@ -228,6 +246,8 @@ msgid ""
 "normal releases. Someone from the core team, with write access to "
 "Transifex, should run the following:"
 msgstr ""
+"定期地，核心团队应该在我们的正常发布之外更新翻译文件。"
+"核心团队中的某个人，如果有对 Transifex 的写入权限，应该运行以下程序："
 
 #: ../../contributing.rst:164
 msgid ""
@@ -235,16 +255,19 @@ msgid ""
 "will update our local translation files. Changes can be checked in to a "
 "branch and put up for review."
 msgstr ""
+"这将提取新信息，将信息上传到 Transifex，并将更新我们的本地翻译文件。"
+"更改可以被检查到一个分支中，并被挂起供审查。"
 
 #: ../../contributing.rst:171
 msgid "Releasing the theme"
-msgstr ""
+msgstr "发布主题"
 
 #: ../../contributing.rst:173
 msgid ""
 "To release a new version of the theme, core team will take the following "
 "steps:"
 msgstr ""
+"为了发布新版本的主题，核心团队将采取以下步骤："
 
 #: ../../contributing.rst:175
 msgid ""
@@ -255,6 +278,10 @@ msgid ""
 "development versions). The version increment should reflect these "
 "releases and any potentially breaking changes."
 msgstr ""
+"通过运行 ``bump2version [major|minor|patch|dev]`` 来提升版本。"
+"这将自动增加版本号的正确部分，你不需要指定准确的版本号。"
+"我们遵循 `semantic versioning`_ 和 `PEP440`_ （关于 alpha 版本和开发版本）。"
+"版本增量应该反映这些版本和任何潜在的破坏性变化。"
 
 #: ../../contributing.rst:181
 msgid ""
@@ -263,40 +290,47 @@ msgid ""
 "release to an ``rc`` release. If this is a final release, run the command"
 " again."
 msgstr ""
+"新版本默认为 ``alpha`` 版本。"
+"如果这是一个候选版本，"
+"运行 ``bump2version --allow-dirty release`` 将该版本更新为 ``rc`` 版本。"
+"如果这是一个最终版本，请再次运行该命令。"
 
 #: ../../contributing.rst:184
 msgid ""
 "Update the changelog (``docs/changelog.rst``) with the version "
 "information."
 msgstr ""
+"用版本信息更新更新日志（``docs/changelog.rst``）。"
 
 #: ../../contributing.rst:185
 msgid ""
 "Run ``python setup.py update_translations`` to compile new translation "
 "files and update Transifex."
 msgstr ""
+"运行 ``python setup.py update_translations`` 来编译新的翻译文件并更新 Transifex。"
 
 #: ../../contributing.rst:187
 msgid ""
 "Run ``python setup.py build_assets`` to rebuild all the theme assets and "
 "the Python package."
 msgstr ""
+"运行 ``python setup.py build_assets`` 来重建所有的主题 assets 和 Python 包。"
 
 #: ../../contributing.rst:189
 msgid "Commit these changes."
-msgstr ""
+msgstr "提交变更。"
 
 #: ../../contributing.rst:190
 msgid "Tag the release in git: ``git tag $NEW_VERSION``."
-msgstr ""
+msgstr "在 git 中给该版本打上标签：``git tag $NEW_VERSION``。"
 
 #: ../../contributing.rst:191
 msgid "Push the tag to GitHub: ``git push --tags origin``."
-msgstr ""
+msgstr "推送标签到 GitHub：``git push --tags origin``。"
 
 #: ../../contributing.rst:192
 msgid "Upload the package to PyPI:"
-msgstr ""
+msgstr "将软件包上传到 PyPI："
 
 #: ../../contributing.rst:200
 msgid ""
@@ -304,4 +338,5 @@ msgid ""
 " to the next patch by running ``bump2version patch``. Open a pull request"
 " with this change."
 msgstr ""
-
+"最后，通过运行 ``bump2version patch`` 打开一个新的拉动请求，"
+"将开发版本更新到下一个补丁。用这一变更打开一个拉动请求。"

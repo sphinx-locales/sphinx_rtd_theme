@@ -24,7 +24,7 @@ msgstr "更新日志"
 
 #: ../../changelog.rst:6
 msgid "Development version (|development_version|)"
-msgstr ""
+msgstr "开发版本（|development_version|）。"
 
 #: ../../changelog.rst:13
 msgid "1.0.0"
@@ -32,15 +32,15 @@ msgstr ""
 
 #: ../../changelog.rst:16
 msgid "Incompatible Changes"
-msgstr ""
+msgstr "不兼容的变更"
 
 #: ../../changelog.rst:18
 msgid "The minimum supported python version is now 2.7 or 3.4 and greater (#1093)"
-msgstr ""
+msgstr "现在最小支持的 Python 版本为 2.7 或 3.4 及更高版本（#1093）"
 
 #: ../../changelog.rst:19
 msgid "The minimum supported Sphinx version is now 1.6 (#1091)"
-msgstr ""
+msgstr "现在最小支持的 Sphinx 版本是 1.6（#1091）"
 
 #: ../../changelog.rst:22
 msgid "Deprecated"

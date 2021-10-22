@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Read the Docs Sphinx Theme 1.0.1alpha1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 08:40+0800\n"
+"POT-Creation-Date: 2021-10-22 13:49+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../demo/demo.rst:6
-msgid "EXAMPLE"
-msgstr "实例"
+msgid "实例"
+msgstr ""
 
 #: ../../demo/demo.rst:11
 msgid "Paragraph Level Markup"
@@ -733,4 +733,7 @@ msgid ""
 " a leading icon, and should wrap white-spaces "
 "<static/yi_jing_01_chien.jpg>`"
 msgstr ""
+
+#~ msgid "EXAMPLE"
+#~ msgstr "实例"
 
