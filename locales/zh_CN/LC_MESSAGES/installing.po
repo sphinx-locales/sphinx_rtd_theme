@@ -28,7 +28,7 @@ msgstr "安装该软件包（或将其添加到你的 ``requirements.txt`` 文�
 
 #: ../../installing.rst:10
 msgid "In your ``conf.py`` file:"
-msgstr "在你的 ``conf.py`` 文件中。"
+msgstr "在你的 ``conf.py`` 文件中："
 
 #: ../../installing.rst:25
 msgid ":ref:`supported-browsers`"
@@ -36,7 +36,7 @@ msgstr ""
 
 #: ../../installing.rst:25
 msgid "Officially supported and tested browser/operating system combinations"
-msgstr "官方支持和测试的浏览器/操作系统组合"
+msgstr "官方支持和测试的浏览器/操作系统组合。"
 
 #: ../../installing.rst:27
 msgid ":ref:`supported-dependencies`"
@@ -53,10 +53,10 @@ msgid ""
 " your output, either we lack the localized strings for your locale, or "
 "you are using an old version of the theme."
 msgstr ""
-"把这个主题作为一个扩展来添加，才能使主题的本地化"
-"在你的翻译输出中的字符串。如果这些字符串在你的输出中没有被翻译"
-"你的输出中，要么是我们缺乏适合你所在地区的本地化字符串，要么是"
-"你使用的是旧版本的主题。"
+"把这个主题作为一个插件添加到你的翻译输出中，才能实现主题字符串的本地化。"
+"如果这些字符串在你的输出中没有被翻译出来，"
+"要么是我们缺乏适合你所在地区的本地化字符串，"
+"要么是你使用的是一个旧版本的主题。"
 
 #: ../../installing.rst:38
 msgid "Via Git or Download"
@@ -68,7 +68,8 @@ msgid ""
 "recommended. Static assets won't be included in the repository starting "
 "in release :ref:`3.0.0`."
 msgstr ""
-"直接从版本库源码安装已经过时，不推荐。静态 assets 将不包括在版本库中 :ref:`3.0.0`。"
+"直接从版本库源码安装的方式已经过时，不推荐。"
+"从 release :ref:`3.0.0` 版本开始，静态 assets 将不包括在版本库中。"
 
 #: ../../installing.rst:46
 msgid ""
@@ -77,6 +78,5 @@ msgid ""
 " following two settings to your Sphinx ``conf.py`` file:"
 msgstr ""
 "将 ``sphinx_rtd_theme/sphinx_rtd_theme`` 储存库的链接或"
-"子树放到你的文档 ``docs/_themes/sphinx_rtd_theme`` 中，"
+"子树放到你文档的 ``docs/_themes/sphinx_rtd_theme`` 中，"
 "然后在你的 Sphinx ``conf.py`` 文件中添加以下两个设置："
-

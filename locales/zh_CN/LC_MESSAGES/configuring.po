@@ -32,34 +32,38 @@ msgid ""
 "using the :confval:`html_theme_options <sphinx:html_theme_options>` "
 "configuration option."
 msgstr ""
+"以下选项可以在你项目的 ``conf.py`` 文件中定义，"
+"使用 :confval:`html_theme_options <sphinx:html_theme_options>` 配置选项。"
 
 #: ../../configuring.rst:11
 msgid "For example:"
-msgstr ""
+msgstr "例如："
 
 #: ../../configuring.rst:33
 msgid "Table of contents options"
-msgstr ""
+msgstr "目录的选项"
 
 #: ../../configuring.rst:35
 msgid ""
 "The following options change how :rst:dir:`sphinx:toctree` directives "
 "generate documentation navigation."
 msgstr ""
+"以下选项改变了 :rst:dir:`sphinx:toctree` 指令生成文档导航的方式。"
 
 #: ../../configuring.rst:40
 msgid ""
 "With this enabled, navigation entries are not expandable -- the ``[+]`` "
 "icons next to each entry are removed."
 msgstr ""
+"启用该功能后，导航条目无法扩展 -- 每个条目旁边的 ``[+]`` 图标被移除。"
 
 #: ../../configuring.rst
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #: ../../configuring.rst
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #: ../../configuring.rst:44 ../../configuring.rst:57 ../../configuring.rst:74
 #: ../../configuring.rst:134
@@ -73,16 +77,20 @@ msgid ""
 "deep file structure can cause long compilation times and can result in "
 "HTML files that are significantly larger in file size."
 msgstr ""
+"将 :confval:`collapse_navigation` 设置为 ``False``，"
+"并在有许多文件和深层文件结构的项目中使用 :confval:`navigation_depth` 的高数值，"
+"会导致编译时间过长，并可能导致 HTML 文件的文件大小明显增大。"
 
 #: ../../configuring.rst:54
 msgid "Scroll the navigation with the main page content as you scroll the page."
-msgstr ""
+msgstr "当你滚动页面时，导航与主页面内容一起滚动。"
 
 #: ../../configuring.rst:61
 msgid ""
 "The maximum depth of the table of contents tree. Set this to ``-1`` to "
 "allow unlimited depth."
 msgstr ""
+"目录树的最大深度。将此设置为 ``-1``，以允许无限的深度。"
 
 #: ../../configuring.rst:65
 msgid "``4``"
@@ -94,10 +102,12 @@ msgid ""
 "is, any :rst:dir:`sphinx:toctree` directive that is marked with the "
 "``:hidden:`` option."
 msgstr ""
+"指定导航是否包括隐藏的内容目录--即"
+"任何被标记为 `:hidden:` 选项的 :rst:dir:`sphinx:toctree` 指令"。
 
 #: ../../configuring.rst:78
 msgid "When enabled, page subheadings are not included in the navigation."
-msgstr ""
+msgstr "启用后，页面小标题不包括在导航中。"
 
 #: ../../configuring.rst:82
 msgid "False"
@@ -105,7 +115,7 @@ msgstr ""
 
 #: ../../configuring.rst:95
 msgid "Miscellaneous options"
-msgstr ""
+msgstr "其他选项"
 
 #: ../../configuring.rst:99
 msgid ""
@@ -113,10 +123,12 @@ msgid ""
 " the value to the ID provided to you by google (like ``UA-XXXXXXX`` or "
 "``G-XXXXXXXXXX``)."
 msgstr ""
+"如果指定，Google Analytics 的 `gtag.js`_ 就会包含在你的页面中。"
+"将该值设置为谷歌提供给你的 ID（如 ``UA-XXXXXXX`` 或 ``G-XXXXXXXXXX``）。"
 
 #: ../../configuring.rst:108
 msgid "Anonymize visitor IP addresses in Google Analytics."
-msgstr ""
+msgstr "在谷歌分析中对访问者的 IP 地址进行匿名处理。"
 
 #: ../../configuring.rst:111 ../../configuring.rst:142
 #: ../../configuring.rst:157
@@ -131,26 +143,33 @@ msgid ""
 "documentation is available through. The URL points to the root path of "
 "the documentation and requires a trailing slash."
 msgstr ""
+"这将指定一个 `规范的 URL`_ 元链接元素，"
+"告诉搜索引擎哪个 URL 应该被列为你的文档的主要 URL。"
+"如果你有多个 URL，而你的文档是通过这些 URL 提供的，这就很重要。"
+"该 URL 指向文档的根路径，需要一个尾部斜线。"
 
 #: ../../configuring.rst:125
 msgid "Use :confval:`sphinx:html_baseurl` instead."
-msgstr ""
+msgstr "使用 :confval:`sphinx:html_baseurl` 代替。"
 
 #: ../../configuring.rst:131
 msgid "If ``True``, the version number is shown at the top of the sidebar."
-msgstr ""
+msgstr "如果 ``True``，版本号将显示在侧边栏的顶部。"
 
 #: ../../configuring.rst:138
 msgid ""
 "Only display the logo image, do not display the project name at the top "
 "of the sidebar"
 msgstr ""
+"只显示 logo 图片，不在侧边栏的顶部显示项目名称"
 
 #: ../../configuring.rst:146
 msgid ""
 "Location to display :guilabel:`Next` and :guilabel:`Previous` buttons. "
 "This can be either ``bottom``, ``top``, ``both`` , or ``None``."
 msgstr ""
+"显示 :guilabel:`Next` 和 :guilabel:`Previous` 按钮的位置。"
+"这可以是 ``bottom``，``top``，``both``，或 ``None``。"
 
 #: ../../configuring.rst:150
 msgid "``bottom``"
@@ -158,7 +177,7 @@ msgstr ""
 
 #: ../../configuring.rst:154
 msgid "Add an icon next to external links."
-msgstr ""
+msgstr "在外部链接旁边添加一个图标。"
 
 #: ../../configuring.rst:161
 msgid ""
@@ -167,16 +186,20 @@ msgid ""
 "``blob`` (default), ``edit``, or ``raw``. On Bitbucket, this can be "
 "either: ``view`` (default) or ``edit``."
 msgstr ""
+"改变了使用 ``display_github', ``display_gitlab`` 等文件时的查看方式。"
+"当使用 GitHub 或 GitLab 时，这可以是：``blob``（默认）。``edit``, 或 ``raw``。"
+"在 Bitbucket 上，这可以是 ``view``（默认）或 ``edit``。"
 
 #: ../../configuring.rst:167
 msgid "``blob`` or ``view``"
-msgstr ""
+msgstr "``blob`` 或者 ``view``"
 
 #: ../../configuring.rst:171
 msgid ""
 "Changes the background of the search area in the navigation bar. The "
 "value can be anything valid in a CSS `background` property."
 msgstr ""
+"改变导航栏中搜索区域的背景。该值可以是任何在 CSS `background` 属性中有效的东西。"
 
 #: ../../configuring.rst:175
 msgid "``#2980B9``"
@@ -184,33 +207,34 @@ msgstr ""
 
 #: ../../configuring.rst:179
 msgid "File-wide metadata"
-msgstr ""
+msgstr "文件范围的元数据"
 
 #: ../../configuring.rst:181
 msgid ""
 "The following options can be used as :ref:`file-wide metadata "
 "<sphinx:metadata>`:"
 msgstr ""
+"以下选项可作为 :ref:`文件范围的元数据 <sphinx:metadata>` 使用："
 
 #: ../../configuring.rst:186
 msgid "Force the :guilabel:`Edit on GitHub` button to use the configured URL."
-msgstr ""
+msgstr "强制 :guilabel:`Edit on GitHub` 按钮使用配置的 URL。"
 
 #: ../../configuring.rst:190
 msgid "Force the :guilabel:`Edit on Bitbucket` button to use the configured URL."
-msgstr ""
+msgstr "强制 :guilabel:`Edit on Bitbucket` 按钮使用配置的 URL。"
 
 #: ../../configuring.rst:194
 msgid "Force the :guilabel:`Edit on GitLab` button to use the configured URL."
-msgstr ""
+msgstr "强制 :guilabel:`Edit on GitLab` 按钮使用配置的 URL。"
 
 #: ../../configuring.rst:197
 msgid "Other configuration"
-msgstr ""
+msgstr "其他配置"
 
 #: ../../configuring.rst:200
 msgid "Adding a logo"
-msgstr ""
+msgstr "添加 logo"
 
 #: ../../configuring.rst:202
 msgid ""
@@ -219,16 +243,21 @@ msgid ""
 "the top of the sidebar. The theme option :py:confval:`logo_only` also "
 "allows for *only* the logo to be shown at the top of the sidebar."
 msgstr ""
+"使用 Sphinx 标准选项 :py:confval:`html_logo <sphinx:html_logo>`，"
+"你可以设置一个图片文件作为侧边栏顶部的 logo 使用。"
+"主题选项 :py:confval:`logo_only` 也允许在边栏顶部只显示标志。"
 
 #: ../../configuring.rst:208
 msgid "Adding custom CSS or Javascript"
-msgstr ""
+msgstr "添加自定义 CSS 或 JavaScript"
 
 #: ../../configuring.rst:210
 msgid ""
 "Adding custom CSS or Javascript can help you alter the look and feel of "
 "this theme without forking the theme for local use."
 msgstr ""
+"添加自定义 CSS 或 JavaScript 可以帮助你改变这个主题的外观和感受，"
+"而不需要 fork 主题供本地使用。"
 
 #: ../../configuring.rst:213
 msgid ""
@@ -236,10 +265,12 @@ msgid ""
 "theme files, you can :doc:`add files to be included in your documentation"
 " output <rtd:guides/adding-custom-css>`."
 msgstr ""
+"为了在不破坏现有主题文件的情况下添加自定义 CSS 或 JavaScript，"
+"你可以 :doc:`添加文件以包含在你的文档输出中 <rtd:guides/adding-custom-css>`。"
 
 #: ../../configuring.rst:218
 msgid "How the table of contents displays"
-msgstr ""
+msgstr "目录的显示方式"
 
 #: ../../configuring.rst:220
 msgid ""
@@ -248,6 +279,9 @@ msgid ""
 "to allow for quick navigation through topics. If no TOC trees are "
 "defined, Sphinx's default behavior is to use the page headings instead."
 msgstr ""
+"目前，左边的菜单将根据你的源文件中定义的任何 ``toctree`` 指令来构建。"
+"它默认输出 4 级深度，以允许快速浏览主题。"
+"如果没有定义 TOC 树，Sphinx 的默认行为是使用页面标题来代替。"
 
 #: ../../configuring.rst:225
 msgid ""
@@ -256,6 +290,8 @@ msgid ""
 "incorrectly, and the resulting menu might not show the correct depth when"
 " it renders."
 msgstr ""
+"需要注意的是，如果你在整个文档中不遵循相同的 reST 标题风格，"
+"那么 TOC 树的构建就会不正确，所产生的菜单在渲染时可能不会显示正确的深度。"
 
 #: ../../configuring.rst:229
 msgid ""
@@ -264,6 +300,9 @@ msgid ""
 " file with the :ref:`:hidden: <sphinx:toctree-directive>` property that "
 "will allow you to build a TOC without it rendering in your index."
 msgstr ""
+"还要注意，默认情况下，目录是用 ``includehidden=True`` 设置的。"
+"这允许你在索引文件中用 :ref:`:hidden: <sphinx:toctree-directive>` 属性"
+"设置一个隐藏的 TOC，这将允许你建立一个 TOC 而不在你的索引中呈现。"
 
 #: ../../configuring.rst:234
 msgid ""
@@ -272,4 +311,6 @@ msgid ""
 "positioning. To disable the sticky navigation altogether, change the "
 ":confval:`sticky_navigation` theme option."
 msgstr ""
-
+"在默认情况下，当你滚动时，导航将粘到屏幕上。"
+"然而，如果你的 TOC 不够高，它将恢复为静态定位。"
+"要完全禁用粘性导航，请改变 :confval:`sticky_navigation` 主题选项。"

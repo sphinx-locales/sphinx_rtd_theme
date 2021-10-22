@@ -41,10 +41,9 @@ msgid ""
 "commonly used with projects on `Read the Docs`_ but can work with any "
 "Sphinx project."
 msgstr ""
-"这个 Sphinx_ 主题的设计是为了给"
-"文档用户在桌面和移动设备上的良好体验。这个主题"
-"通常用于 `Read the Docs`_ 的项目，但也可以用于任何 "
-"Sphinx 项目。"
+"这个 Sphinx_ 主题的设计是为了给予"
+"文档用户在桌面和移动设备上有良好体验。这个主题"
+"通常用于 `Read the Docs`_ 的项目，但也可以用于任何 Sphinx 项目。"
 
 #: ../../index.rst:12
 msgid "Using this theme"
@@ -80,7 +79,7 @@ msgstr ""
 
 #: ../../index.rst:24
 msgid "Supported project dependencies, like Python and Sphinx."
-msgstr "支持的项目依赖性，如Python和Sphinx。"
+msgstr "支持的项目依赖性，如 Python 和 Sphinx。"
 
 #: ../../index.rst:27
 msgid "Development"
@@ -96,11 +95,11 @@ msgstr "如何对主题做出贡献。"
 
 #: ../../index.rst:33
 msgid ":doc:`Development guidelines <development>`"
-msgstr ":doc:`开发指南 <development>`。"
+msgstr ":doc:`开发指南 <development>`"
 
 #: ../../index.rst:33
 msgid "Guidelines the theme developers use for developing and testing changes."
-msgstr "主题开发者用于开发和测试变化的准则。"
+msgstr "主题开发者用于开发和测试变更的准则。"
 
 #: ../../index.rst:37
 msgid "`Read the Docs contributor guide`_"
@@ -119,7 +118,7 @@ msgstr ""
 
 #: ../../index.rst:40
 msgid "The theme development changelog."
-msgstr "主题开发的变化日志。"
+msgstr "主题开发的变更日志。"
 
 #: ../../index.rst:44
 msgid ":doc:`Demo documentation <demo/structure>`"
@@ -127,5 +126,5 @@ msgstr ":doc:`演示文档 <demo/structure>`"
 
 #: ../../index.rst:43
 msgid "The theme's styleguide test environment, where new changes are tested."
-msgstr "主题的样式指南测试环境，在这里测试新的变化。"
+msgstr "主题的样式指南测试环境，在这里测试新的变更。"
 
