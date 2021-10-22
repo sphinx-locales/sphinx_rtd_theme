@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Dave Snider, Read the Docs, Inc. & contributors
+# This file is distributed under the same license as the Read the Docs
+# Sphinx Theme package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs Sphinx Theme 1.0.1alpha1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-22 08:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../demo/long.rst:4
+msgid "Long Sticky Nav"
+msgstr "长条状导航"
+
+#: ../../demo/long.rst:6
+msgid "Table of Contents"
+msgstr ""
+
+#: ../../demo/long.rst:8
+msgid ""
+"This section demonstrates how the 'sticky_navigation' setting behaves "
+"when the menu is very long. When this section is selected, it will make "
+"the menu and the main area scroll when you are at the top of the page."
+msgstr ""
+
+#: ../../demo/long.rst:13
+msgid "Example Menu 1"
+msgstr ""
+
+#: ../../demo/long.rst:15 ../../demo/long.rst:21 ../../demo/long.rst:27
+#: ../../demo/long.rst:33 ../../demo/long.rst:39 ../../demo/long.rst:45
+#: ../../demo/long.rst:51 ../../demo/long.rst:57 ../../demo/long.rst:63
+#: ../../demo/long.rst:69 ../../demo/long.rst:75 ../../demo/long.rst:81
+#: ../../demo/long.rst:87 ../../demo/long.rst:93 ../../demo/long.rst:99
+#: ../../demo/long.rst:105 ../../demo/long.rst:111 ../../demo/long.rst:117
+#: ../../demo/long.rst:123 ../../demo/long.rst:129 ../../demo/long.rst:134
+#: ../../demo/long.rst:139 ../../demo/long.rst:144 ../../demo/long.rst:149
+#: ../../demo/long.rst:154 ../../demo/long.rst:159 ../../demo/long.rst:164
+#: ../../demo/long.rst:169 ../../demo/long.rst:174 ../../demo/long.rst:179
+#: ../../demo/long.rst:184 ../../demo/long.rst:189 ../../demo/long.rst:194
+#: ../../demo/long.rst:199 ../../demo/long.rst:204 ../../demo/long.rst:209
+#: ../../demo/long.rst:214
+msgid "Just a place holder..."
+msgstr ""
+
+#: ../../demo/long.rst:19
+msgid "Example Menu 2"
+msgstr ""
+
+#: ../../demo/long.rst:25
+msgid "Example Menu 3"
+msgstr ""
+
+#: ../../demo/long.rst:31
+msgid "Example Menu 4"
+msgstr ""
+
+#: ../../demo/long.rst:37
+msgid "Example Menu 5"
+msgstr ""
+
+#: ../../demo/long.rst:43
+msgid "Example Menu 6"
+msgstr ""
+
+#: ../../demo/long.rst:49
+msgid "Example Menu 7"
+msgstr ""
+
+#: ../../demo/long.rst:55
+msgid "Example Menu 8"
+msgstr ""
+
+#: ../../demo/long.rst:61
+msgid "Example Menu 9"
+msgstr ""
+
+#: ../../demo/long.rst:67
+msgid "Example Menu 10"
+msgstr ""
+
+#: ../../demo/long.rst:73
+msgid "Example Menu 11"
+msgstr ""
+
+#: ../../demo/long.rst:79
+msgid "Example Menu 12"
+msgstr ""
+
+#: ../../demo/long.rst:85
+msgid "Example Menu 13"
+msgstr ""
+
+#: ../../demo/long.rst:91
+msgid "Example Menu 14"
+msgstr ""
+
+#: ../../demo/long.rst:97
+msgid "Example Menu 15"
+msgstr ""
+
+#: ../../demo/long.rst:103
+msgid "Example Menu 16"
+msgstr ""
+
+#: ../../demo/long.rst:109
+msgid "Example Menu 17"
+msgstr ""
+
+#: ../../demo/long.rst:115
+msgid "Example Menu 18"
+msgstr ""
+
+#: ../../demo/long.rst:121
+msgid "Example Menu 19"
+msgstr ""
+
+#: ../../demo/long.rst:127
+msgid "Example Menu 20"
+msgstr ""
+
+#: ../../demo/long.rst:132
+msgid "Example Submenu 1"
+msgstr ""
+
+#: ../../demo/long.rst:137 ../../demo/long.rst:182
+msgid "Submenu 1"
+msgstr ""
+
+#: ../../demo/long.rst:142 ../../demo/long.rst:157 ../../demo/long.rst:187
+#: ../../demo/long.rst:197
+msgid "Subsubmenu 1"
+msgstr ""
+
+#: ../../demo/long.rst:147
+msgid "Subsubmenu 2"
+msgstr ""
+
+#: ../../demo/long.rst:152 ../../demo/long.rst:192
+msgid "Submenu 2"
+msgstr ""
+
+#: ../../demo/long.rst:162 ../../demo/long.rst:202
+msgid "Submenu 3"
+msgstr ""
+
+#: ../../demo/long.rst:167 ../../demo/long.rst:207
+msgid "Submenu 4"
+msgstr ""
+
+#: ../../demo/long.rst:172 ../../demo/long.rst:212
+msgid "Submenu 5"
+msgstr ""
+
+#: ../../demo/long.rst:177
+msgid "Example Submenu 2"
+msgstr ""
+

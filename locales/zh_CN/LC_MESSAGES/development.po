@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Dave Snider, Read the Docs, Inc. & contributors
+# This file is distributed under the same license as the Read the Docs
+# Sphinx Theme package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs Sphinx Theme 1.0.1alpha1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-22 08:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../development.rst:2
+msgid "Development"
+msgstr "开发"
+
+#: ../../development.rst:4
+msgid ""
+"The theme developers follow the guidelines below for development and "
+"release planning. Documentation authors can decide which theme release "
+"works best for their project based on required browser/operating system "
+"combinations or dependency support."
+msgstr ""
+"主题开发者遵循以下准则进行开发和发布计划。"
+"文档作者可以根据所需的浏览器/操作系统组合或依赖性支持来决定哪一个主题版本最适合他们的项目。"
+
+#: ../../development.rst:12
+msgid "Supported browsers"
+msgstr "支持的浏览器"
+
+#: ../../development.rst:14
+msgid ""
+"Official browser support is determined by the most popular "
+"browser/operating system combinations in our pageview analytics. "
+"Officially supported combinations are commonly tested during development,"
+" and are always tested before final release of a new version of the "
+"theme."
+msgstr ""
+"官方浏览器支持由我们的页面浏览分析中最流行的浏览器/操作系统组合决定。"
+"官方支持的组合通常在开发过程中进行测试，并在新版本的主题最终发布前进行测试。"
+
+#: ../../development.rst:19
+msgid ""
+"Older releases of supported combinations, and some less common "
+"combinations, are considered partially supported. This means that we do "
+"not consistently test these combinations, however we do expect user "
+"experience to be comparable with supported combinations."
+msgstr ""
+"支持的组合的较旧版本，以及一些不太常见的组合，被认为是部分支持。"
+"这意味着我们并没有对这些组合进行持续的测试，但是我们希望用户体验能够与支持的组合相媲美。"
+
+#: ../../development.rst:24
+msgid "Supported browser combinations"
+msgstr "支持的浏览器组合"
+
+#: ../../supported-browsers.csv:1
+msgid "Browser"
+msgstr "浏览器"
+
+#: ../../supported-browsers.csv:1
+msgid "Operating System"
+msgstr "操作系统"
+
+#: ../../development.rst:63 ../../supported-browsers.csv:1
+msgid "Versions"
+msgstr "版本"
+
+#: ../../supported-browsers.csv:1
+msgid "Chrome"
+msgstr ""
+
+#: ../../supported-browsers.csv:1
+msgid "Windows, MacOS, Linux, Android"
+msgstr ""
+
+#: ../../supported-browsers.csv:1
+msgid ">=90"
+msgstr ""
+
+#: ../../supported-browsers.csv:1
+msgid "Firefox"
+msgstr ""
+
+#: ../../supported-browsers.csv:1
+msgid "Linux, Windows"
+msgstr ""
+
+#: ../../supported-browsers.csv:1
+msgid "Edge"
+msgstr ""
+
+#: ../../supported-browsers.csv:1
+msgid "Windows"
+msgstr ""
+
+#: ../../supported-browsers.csv:1
+msgid "Safari"
+msgstr ""
+
+#: ../../supported-browsers.csv:1
+msgid "MacOS, iOS"
+msgstr ""
+
+#: ../../supported-browsers.csv:1
+msgid ">=13"
+msgstr ""
+
+#: ../../development.rst:29
+msgid "Supported browser and operating system combinations added"
+msgstr "增加了支持的浏览器和操作系统组合"
+
+#: ../../development.rst:32
+msgid ""
+"There are several browser/operating system combinations that are not "
+"supported by the theme developers at all. Unsupported combinations do not"
+" receive testing or development, and we likely won't accept major "
+"contributions for these combinations."
+msgstr ""
+"有几个浏览器/操作系统组合根本不被主题开发者所支持。"
+"不支持的组合不接受测试或开发，我们可能不会接受这些组合的主要贡献。"
+
+#: ../../development.rst:37
+msgid "Unsupported browser/operating system combinations include:"
+msgstr "不支持的浏览器/操作系统组合包括。"
+
+#: ../../development.rst:41
+msgid "Internet Explorer (any OS, versions <=10)"
+msgstr "Internet Explorer（任何操作系统，版本 <=10）。"
+
+#: ../../development.rst:40
+msgid ""
+"**Unsupported.** IE11 is the last partially supported version. We do no "
+"testing on prior versions."
+msgstr ""
+"**不支持**。IE11 是最后一个部分支持的版本。我们不对之前的版本进行测试。"
+
+#: ../../development.rst:45
+msgid "Internet Explorer (any OS, version 11)"
+msgstr "Internet Explorer（任何操作系统，版本11）。"
+
+#: ../../development.rst:44
+msgid ""
+"We currently only partially support IE11, and only test for major bugs. "
+"Support will be removed in the :ref:`2.0.0` release."
+msgstr ""
+"我们目前只部分支持 IE11，而且只测试主要的错误。"
+"支持将在 :ref:`2.0.0` 版本中删除。"
+
+#: ../../development.rst:49
+msgid "Opera (any OS, any version)"
+msgstr "Opera（任何操作系统，任何版本）"
+
+#: ../../development.rst:48
+msgid ""
+"**Community support only.** We do not receive enough traffic with this "
+"browser to officially support it in testing and development."
+msgstr ""
+"**社区支持**。我们没有收到足够的该浏览器的流量，无法在测试和开发中正式支持它。"
+
+#: ../../development.rst:54 ../../development.rst:58
+msgid "Supported dependencies"
+msgstr "支持的依赖"
+
+#: ../../development.rst:56
+msgid ""
+"The theme officially supports the following dependencies in your Sphinx "
+"project:"
+msgstr "该主题在你的 Sphinx 项目中正式支持以下依赖："
+
+#: ../../development.rst:62
+msgid "Dependency"
+msgstr "依赖关系"
+
+#: ../../development.rst:64
+msgid "Python"
+msgstr ""
+
+#: ../../development.rst:65
+msgid "2.7 or 3.6 or greater"
+msgstr "2.7 或 3.6 或更高"
+
+#: ../../development.rst:66
+msgid "Sphinx"
+msgstr ""
+
+#: ../../development.rst:67
+msgid "1.7 up to at least 4.1"
+msgstr "1.7 至至少 4.1"
+
+#: ../../development.rst:68
+msgid "docutils"
+msgstr ""
+
+#: ../../development.rst:69
+msgid "Up to 0.17"
+msgstr "高达 0.17"
+
+#: ../../development.rst:71
+msgid "Sphinx 4.0 support added"
+msgstr "增加了对 Sphinx 4.0 的支持"
+
+#: ../../development.rst:74
+msgid "Sphinx 1.6 support removed"
+msgstr "移除对 Sphinx 1.6 的支持"
+
+#: ../../development.rst:77
+msgid "docutils 0.17 support added"
+msgstr "增加了对 docutils 0.17 的支持"
+
+#: ../../development.rst:81
+msgid "Roadmap"
+msgstr "路线图"
+
+#: ../../development.rst:83
+msgid ""
+"We currently have several releases planned on our development roadmap. "
+"Backward incompatible changes, deprecations, and major features are noted"
+" for each of these releases."
+msgstr ""
+"我们目前在发展路线图上有几个版本的计划。"
+"每一个版本都注明了向后不兼容的变化、弃用和主要功能。"
+
+#: ../../development.rst:87
+msgid ""
+"Releases follow `semantic versioning`_, and so it is generally "
+"recommended that authors pin dependency on ``sphinx_rtd_theme`` to a "
+"version below the next major version:"
+msgstr ""
+"版本遵循 `semantic versioning`_，"
+"因此一般建议作者将对 ``sphinx_rtd_theme`` 的依赖性固定在低于下一个主版本的版本："
+
+#: ../../development.rst:100
+msgid "1.0.0"
+msgstr ""
+
+#: ../../development.rst
+msgid "Planned release date"
+msgstr "计划的发布日期"
+
+#: ../../development.rst:102
+msgid "August 2021"
+msgstr "2021 年 8 月"
+
+#: ../../development.rst:104
+msgid ""
+"This release will be a slightly backwards incompatible release to follow "
+"the :ref:`0.5.2` release. It will drop support for Sphinx 1.6, which is a"
+" rather old release at this point."
+msgstr ""
+"这个版本将是一个稍微向后不兼容的版本，紧随 :ref:`0.5.2` 版本。"
+"它将放弃对 Sphinx 1.6 的支持，这在目前是一个相当老的版本。"
+
+#: ../../development.rst:108
+msgid ""
+"This version will add official support for the Sphinx 4.x release series "
+"and it resolves bugs with the latest release of Docutils, version 0.17."
+msgstr ""
+"这个版本将增加对 Sphinx 4.x 版本系列的正式支持，"
+"它解决了 Docutils 最新版本 0.17 版本的错误。"
+
+#: ../../development.rst:111
+msgid ""
+"Starting with this release, several deprecation warnings will be emitted "
+"at build time:"
+msgstr ""
+"从这个版本开始，在构建时将会发出几个废弃警告："
+
+#: ../../development.rst:123
+msgid "Direct installation is deprecated"
+msgstr "直接安装已被废弃"
+
+#: ../../development.rst:115
+msgid ""
+"Support for direct installation through GitHub is no longer a suggested "
+"installation method. In an effort to ease maintenance, compiled assets "
+"will eventually be removed from the theme repository. These files will "
+"only be included in the built packages/releases available on PyPI."
+msgstr ""
+"支持通过 GitHub 直接安装，不再是建议的安装方法。"
+"为了便于维护，编译的 assets 最终将从主题库中删除。"
+"这些文件将只包括在 PyPI 上提供的内置包/版本中。"
+
+#: ../../development.rst:120
+msgid ""
+"We plan to start putting development releases up on PyPI more frequently,"
+" so that installation from the theme source repository is no longer "
+"necessary."
+msgstr ""
+"我们计划开始在 PyPI 上更频繁地发布开发版本，这样就不再需要从主题源码库中安装。"
+
+#: ../../development.rst:123
+msgid ""
+"Built assets are tentatively planned to be removed in version "
+":ref:`3.0.0`:."
+msgstr ""
+"已建 assets 暂计划在版本 :ref:`3.0.0` 中删除："
+
+#: ../../development.rst:127
+msgid "HTML4 support is deprecated"
+msgstr "对 HTML4 的支持已被弃用"
+
+#: ../../development.rst:126
+msgid ""
+"Support for the Sphinx HTML4 writer will be removed in the :ref:`2.0.0` "
+"release."
+msgstr ""
+"对 Sphinx HTML4 写入器的支持将在 :ref:`2.0.0` 版本中删除。"
+
+#: ../../development.rst:132
+msgid "1.1.0"
+msgstr ""
+
+#: ../../development.rst:134
+msgid "2021 Q3"
+msgstr ""
+
+#: ../../development.rst:136
+msgid ""
+"We aim to follow up release :ref:`1.0.0` with at least one bug fix "
+"release in the 1.x release series. The 1.1 release will not be adding any"
+" major features and will instead mark the last release targeting projects"
+" with old dependencies like Sphinx 1.8, HTML4, or required support for "
+"IE11."
+msgstr ""
+"我们的目标是在 1.x 版本系列中至少有一个错误修复版本来跟进 :ref:`1.0.0`。"
+"1.1 版本将不会增加任何主要功能，而是标志着最后一个针对有旧的依赖性的项目的版本，"
+"如 Sphinx 1.8、HTML4 或对 IE11 的必要支持。"
+
+#: ../../development.rst:144
+msgid "2.0.0"
+msgstr ""
+
+#: ../../development.rst:146
+msgid "2022 Q1"
+msgstr ""
+
+#: ../../development.rst:148
+msgid ""
+"This release will mark the beginning of a new round of feature "
+"development, as well as a number of backward incompatible changes and "
+"deprecations."
+msgstr ""
+"这个版本将标志着新一轮功能开发的开始，以及一些向后不兼容的变化和弃用。"
+
+#: ../../development.rst:151
+msgid ""
+"Of note, the following backwards incompatible changes are planned for "
+"this release:"
+msgstr ""
+"值得注意的是，这个版本计划进行以下向后不兼容的修改："
+
+#: ../../development.rst:156
+msgid "Sphinx 1.x, Sphinx 2.x, and Docutils 0.16 will not be tested"
+msgstr "Sphinx 1.x, Sphinx 2.x, 和 Docutils 0.16 将不被测试。"
+
+#: ../../development.rst:155
+msgid ""
+"Official support will drop for these version, though they may still "
+"continue to work. Theme developers will not be testing these versions any"
+" longer."
+msgstr ""
+"官方将放弃对这些版本的支持，尽管它们可能仍在继续工作。主题开发者将不再测试这些版本。"
+
+#: ../../development.rst:167
+msgid "HTML4 support will be removed"
+msgstr "将取消对 HTML4 的支持"
+
+#: ../../development.rst:159
+msgid ""
+"Starting with this release, we will only support the HTML5 writer output,"
+" and builds attempting to use the HTML4 writer will fail. If you are "
+"still using the HTML4 writer, or have the ``html4_writer = True`` option "
+"in your Sphinx configuration file, you will need to either remove this "
+"option or pin your dependency to ``sphinx_rtd_theme<=2.0.0`` until you "
+"can."
+msgstr ""
+"从这个版本开始，我们将只支持 HTML5 写入器的输出，试图使用 HTML4 写入器的构建将失败。"
+"如果你还在使用 HTML4 编写器，或者在你的 Sphinx 配置文件中有 ``html4_writer = True`` 选项，"
+"你需要删除这个选项，或者将你的依赖关系固定在 ``sphinx_rtd_theme<=2.0.0``，直到你可以为止。"
+
+#: ../../development.rst:165
+msgid ""
+"This option was suggested in the past to work around issues with HTML5 "
+"support and should no longer be required to use a modern combination of "
+"this theme and Sphinx."
+msgstr ""
+"这个选项在过去被建议用来解决 HTML5 支持的问题，不应该再要求使用这个主题和斯芬克斯的现代组合。"
+
+#: ../../development.rst:172
+msgid "3.0.0"
+msgstr ""
+
+#: ../../development.rst:174
+msgid ""
+"This release is not yet planned, however there are plans to potentially "
+"replace Wyrm with Bootstrap in a release after 2.0."
+msgstr ""
+"这个版本还没有计划，然而有计划在 2.0 之后的版本中可能用 Bootstrap 取代 Wyrm。"
+
+#: ../../development.rst:177
+msgid ""
+"Also tentatively planned for this release is finally removing built CSS "
+"and JavaScript assets from our repository. This will remove the ability "
+"to install the package directly from GitHub, and instead users will be "
+"advised to install development releases from PyPI"
+msgstr ""
+"这个版本还暂时计划从我们的资源库中删除内置的 CSS 和 JavaScript 资产。"
+"这将取消直接从 GitHub 安装软件包的能力，而建议用户从 PyPI 安装开发版本"

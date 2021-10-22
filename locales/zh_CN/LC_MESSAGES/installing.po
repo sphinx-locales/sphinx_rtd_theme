@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Dave Snider, Read the Docs, Inc. & contributors
+# This file is distributed under the same license as the Read the Docs
+# Sphinx Theme package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs Sphinx Theme 1.0.1alpha1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-22 08:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../installing.rst:2
+msgid "Installation"
+msgstr "安装"
+
+#: ../../installing.rst:4
+msgid "Install the package (or add it to your ``requirements.txt`` file):"
+msgstr "安装该软件包（或将其添加到你的 ``requirements.txt`` 文件）。"
+
+#: ../../installing.rst:10
+msgid "In your ``conf.py`` file:"
+msgstr "在你的 ``conf.py`` 文件中。"
+
+#: ../../installing.rst:25
+msgid ":ref:`supported-browsers`"
+msgstr ""
+
+#: ../../installing.rst:25
+msgid "Officially supported and tested browser/operating system combinations"
+msgstr "官方支持和测试的浏览器/操作系统组合"
+
+#: ../../installing.rst:27
+msgid ":ref:`supported-dependencies`"
+msgstr ""
+
+#: ../../installing.rst:28
+msgid "Officially Supported versions of Python, Sphinx, and other dependencies."
+msgstr "官方支持的 Python、Sphinx 和其他依赖的版本。"
+
+#: ../../installing.rst:32
+msgid ""
+"Adding this theme as an extension is what enables localization of theme "
+"strings in your translated output. If these strings are not translated in"
+" your output, either we lack the localized strings for your locale, or "
+"you are using an old version of the theme."
+msgstr ""
+"把这个主题作为一个扩展来添加，才能使主题的本地化"
+"在你的翻译输出中的字符串。如果这些字符串在你的输出中没有被翻译"
+"你的输出中，要么是我们缺乏适合你所在地区的本地化字符串，要么是"
+"你使用的是旧版本的主题。"
+
+#: ../../installing.rst:38
+msgid "Via Git or Download"
+msgstr "通过 Git 或下载"
+
+#: ../../installing.rst:42
+msgid ""
+"Installing directly from the repository source is deprecated and is not "
+"recommended. Static assets won't be included in the repository starting "
+"in release :ref:`3.0.0`."
+msgstr ""
+"直接从版本库源码安装已经过时，不推荐。静态 assets 将不包括在版本库中 :ref:`3.0.0`。"
+
+#: ../../installing.rst:46
+msgid ""
+"Symlink or subtree the ``sphinx_rtd_theme/sphinx_rtd_theme`` repository "
+"into your documentation at ``docs/_themes/sphinx_rtd_theme`` then add the"
+" following two settings to your Sphinx ``conf.py`` file:"
+msgstr ""
+"将 ``sphinx_rtd_theme/sphinx_rtd_theme`` 储存库的链接或"
+"子树放到你的文档 ``docs/_themes/sphinx_rtd_theme`` 中，"
+"然后在你的 Sphinx ``conf.py`` 文件中添加以下两个设置："
+

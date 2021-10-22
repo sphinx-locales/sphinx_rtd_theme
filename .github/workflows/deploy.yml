@@ -34,15 +34,15 @@ jobs:
       # 安装 HTML 主题 & 国际化
       - name: Install theme
         run: |
-          git clone https://github.com/sphinx-doc/sphinx-intl.git draft
+          git clone https://github.com/readthedocs/sphinx_rtd_theme.git draft
           git clone https://github.com/xinetzone/xin-css.git draft/doc/_static/xin-css
           git clone https://github.com/xinetzone/w3css.git draft/doc/_static/w3css
 
       # 构建 Sphinx 文档
       - name: Build the book
         run: |
-          cp locales/ -rf draft/doc/locale/
-          cd draft/doc
+          cp locales/ -rf draft/docs/locale/
+          cd draft/docs
           make gettext
           make -e SPHINXOPTS="-Dlanguage='zh_CN'" html
 
@@ -51,6 +51,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3.6.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: draft/doc/_build/html
+          publish_dir: draft/docs/build/html
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"

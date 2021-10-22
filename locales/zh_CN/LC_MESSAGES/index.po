@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) Sphinx team
-# This file is distributed under the same license as the sphinx-intl
-# package.
+# Copyright (C) Dave Snider, Read the Docs, Inc. & contributors
+# This file is distributed under the same license as the Read the Docs
+# Sphinx Theme package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: sphinx-intl 2.0.1\n"
+"Project-Id-Version: Read the Docs Sphinx Theme 1.0.1alpha1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-20 17:56+0800\n"
+"POT-Creation-Date: 2021-10-22 08:40+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,59 +18,114 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../index.rst:3
-msgid "sphinx-intl: translation support utility for Sphinx"
-msgstr "sphinx-intl: 用于支持 Sphinx 的翻译工具"
+#: ../../index.rst:51
+msgid "Theme Documentation"
+msgstr "主题文档"
 
-#: ../../index.rst:5
+#: ../../index.rst:67
+msgid "Demo Documentation"
+msgstr "演示文档"
+
+#: ../../index.rst:78
+msgid "This is an incredibly long caption for a long menu"
+msgstr "这是一个长菜单的难以置信的长标题"
+
+#: ../../index.rst:2
+msgid "Read the Docs Sphinx Theme"
+msgstr "Read the Docs Sphinx 主题"
+
+#: ../../index.rst:4
 msgid ""
-"``sphinx-intl`` is a utility tool that provides several features that "
-"make it easy to translate and to apply translation to Sphinx_ generated "
-"document. Optional: support the Transifex service for translation with "
-"Sphinx_ ."
+"This Sphinx_ theme was designed to provide a great reader experience for "
+"documentation users on both desktop and mobile devices. This theme is "
+"commonly used with projects on `Read the Docs`_ but can work with any "
+"Sphinx project."
 msgstr ""
-"``sphinx-intl`` 是一个实用工具，它提供了一些功能使得翻译和应用翻译到 Sphinx_ 生成的文件变得容易。可选：支持 "
-"Transifex 服务，用于 Sphinx_  翻译。"
+"这个 Sphinx_ 主题的设计是为了给"
+"文档用户在桌面和移动设备上的良好体验。这个主题"
+"通常用于 `Read the Docs`_ 的项目，但也可以用于任何 "
+"Sphinx 项目。"
 
-msgid "Read the Docs (master)"
-msgstr ""
+#: ../../index.rst:12
+msgid "Using this theme"
+msgstr "使用该主题"
 
-msgid "PyPI"
-msgstr ""
-
-msgid "PyPI - Python 版本"
-msgstr ""
-
-msgid "许可"
+#: ../../index.rst:15
+msgid ":doc:`installing`"
 msgstr ""
 
-#, fuzzy
-msgid "Travis (.org) 分支"
-msgstr "Travis (.org) 分支"
+#: ../../index.rst:15
+msgid "How to install this theme on your Sphinx project."
+msgstr "如何在你的 Sphinx 项目上安装这个主题。"
 
-msgid "GitHub stars"
+#: ../../index.rst:18
+msgid ":doc:`configuring`"
 msgstr ""
 
-#: ../../index.rst:35
-msgid "Documentation"
-msgstr "文档"
+#: ../../index.rst:18
+msgid "Theme configuration and customization options."
+msgstr "主题配置和定制选项。"
+
+#: ../../index.rst:21
+msgid ":ref:`supported-browsers`"
+msgstr ""
+
+#: ../../index.rst:21
+msgid "Supported browser/operating system combinations."
+msgstr "支持的浏览器/操作系统组合。"
+
+#: ../../index.rst:24
+msgid ":ref:`supported-dependencies`"
+msgstr ""
+
+#: ../../index.rst:24
+msgid "Supported project dependencies, like Python and Sphinx."
+msgstr "支持的项目依赖性，如Python和Sphinx。"
+
+#: ../../index.rst:27
+msgid "Development"
+msgstr "开发"
+
+#: ../../index.rst:30
+msgid ":doc:`contributing`"
+msgstr ""
+
+#: ../../index.rst:30
+msgid "How to contribute changes to the theme."
+msgstr "如何对主题做出贡献。"
+
+#: ../../index.rst:33
+msgid ":doc:`Development guidelines <development>`"
+msgstr ":doc:`开发指南 <development>`。"
+
+#: ../../index.rst:33
+msgid "Guidelines the theme developers use for developing and testing changes."
+msgstr "主题开发者用于开发和测试变化的准则。"
 
 #: ../../index.rst:37
-msgid "http://sphinx-intl.rtfd.io/"
+msgid "`Read the Docs contributor guide`_"
+msgstr "`Read the Docs 贡献者指南`_"
+
+#: ../../index.rst:36
+msgid ""
+"Our contribution guidelines extend to all projects maintained by Read the"
+" Docs core team."
+msgstr ""
+"我们的贡献准则延伸到所有由 Read the Docs 核心团队维护的项目。"
+
+#: ../../index.rst:40
+msgid ":doc:`changelog`"
 msgstr ""
 
-#: ../../index.rst:41
-msgid "License"
-msgstr "许可"
+#: ../../index.rst:40
+msgid "The theme development changelog."
+msgstr "主题开发的变化日志。"
 
-#: ../../index.rst:42
-msgid "Licensed under the BSD license."
-msgstr "在 BSD 许可证下授权。"
+#: ../../index.rst:44
+msgid ":doc:`Demo documentation <demo/structure>`"
+msgstr ":doc:`演示文档 <demo/structure>`"
 
-#: ../../index.rst:46
-msgid "Contents"
-msgstr "目录"
-
-#~ msgid "PyPI - Python Version"
-#~ msgstr "PyPI - Python 版本"
+#: ../../index.rst:43
+msgid "The theme's styleguide test environment, where new changes are tested."
+msgstr "主题的样式指南测试环境，在这里测试新的变化。"
 

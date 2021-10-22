@@ -1,0 +1,740 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Dave Snider, Read the Docs, Inc. & contributors
+# This file is distributed under the same license as the Read the Docs
+# Sphinx Theme package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs Sphinx Theme 1.0.1alpha1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-22 08:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../demo/lists_tables.rst:4
+msgid "Lists & Tables"
+msgstr "列表和表格"
+
+#: ../../demo/lists_tables.rst:6
+msgid "Table of Contents"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:9
+msgid "Lists"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:12
+msgid "Enumerated Lists"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:14
+msgid "Arabic numerals."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:16
+msgid "lower alpha)"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:18
+msgid "(lower roman)"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:20
+msgid "upper alpha."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:22
+msgid "upper roman)"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:24
+msgid "Lists that don't start at 1:"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:26
+msgid "Three"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:28
+msgid "Four"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:30
+msgid "C"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:32
+msgid "D"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:34
+msgid "iii"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:36
+msgid "iv"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:38
+msgid "List items may also be auto-enumerated."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:41
+msgid "Definition Lists"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:43 ../../demo/lists_tables.rst:47
+#: ../../demo/lists_tables.rst:50
+msgid "Term"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:44 ../../demo/lists_tables.rst:50
+msgid "Definition"
+msgstr ""
+
+msgid "classifier"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:46
+msgid "Definition paragraph 1."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:48
+msgid "Definition paragraph 2."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:52
+msgid ""
+"I have no clue why the definition list below is classified as a different"
+" style of definition list than the one above."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:57
+msgid "Is it the spaces in the term?"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:56
+msgid ""
+"Maybe it was the multiple line paragraph in the line below that caused "
+"this?"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:60
+msgid "Is it the paragraph above the list maybe?"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:60
+msgid "I guess a lot of these lists don't have leading paragraphs?"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:63
+msgid "Is it everything all at once?"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:63
+msgid "Who knows?!"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:66
+msgid "Option Lists"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:68
+msgid "For listing command-line options:"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:70
+msgid "command-line option \"a\""
+msgstr ""
+
+#: ../../demo/lists_tables.rst:71
+msgid "options can have arguments and long descriptions"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:73
+msgid "options can be long also"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:74
+msgid "long options can also have arguments"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:78
+msgid "The description can also start on the next line."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:80
+msgid ""
+"The description may contain multiple body elements, regardless of where "
+"it starts."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:83
+msgid "Multiple options are an \"option group\"."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:84
+msgid "Commonly-seen: short & long options."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:86
+msgid "Multiple options with arguments."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:87
+msgid "DOS/VMS-style options too"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:89
+msgid "There must be at least two spaces between the option and the description."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:92
+msgid "Field list"
+msgstr ""
+
+#: ../../demo/lists_tables.rst
+msgid "Author"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:96
+msgid "David Goodger"
+msgstr ""
+
+#: ../../demo/lists_tables.rst
+msgid "Address"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:97
+msgid "123 Example Street Example, EX  Canada A1B 2C3"
+msgstr ""
+
+#: ../../demo/lists_tables.rst
+msgid "Contact"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:100
+msgid "docutils-develop@lists.sourceforge.net"
+msgstr ""
+
+#: ../../demo/lists_tables.rst
+msgid "Authors"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:101
+msgid "Me; Myself; I"
+msgstr ""
+
+#: ../../demo/lists_tables.rst
+msgid "organization"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:102
+msgid "humankind"
+msgstr ""
+
+#: ../../demo/lists_tables.rst
+msgid "date"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:103
+msgid "$Date: 2012-01-03 19:23:53 +0000 (Tue, 03 Jan 2012) $"
+msgstr ""
+
+#: ../../demo/lists_tables.rst
+msgid "status"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:104
+msgid "This is a \"work in progress\""
+msgstr ""
+
+#: ../../demo/lists_tables.rst
+msgid "revision"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:105
+msgid "$Revision: 7302 $"
+msgstr ""
+
+#: ../../demo/lists_tables.rst
+msgid "version"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:106
+msgid "1"
+msgstr ""
+
+#: ../../demo/lists_tables.rst
+msgid "copyright"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:107
+msgid ""
+"This document has been placed in the public domain. You may do with it as"
+" you wish. You may copy, modify, redistribute, reattribute, sell, buy, "
+"rent, lease, destroy, or improve it, quote it at length, excerpt, "
+"incorporate, collate, fold, staple, or mutilate it, or do anything else "
+"to it that your or anyone else's heart desires."
+msgstr ""
+
+#: ../../demo/lists_tables.rst
+msgid "field name"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:114
+msgid "This is a generic bibliographic field."
+msgstr ""
+
+#: ../../demo/lists_tables.rst
+msgid "field name 2"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:116
+msgid "Generic bibliographic fields may contain multiple body elements."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:118
+msgid "Like this."
+msgstr ""
+
+#: ../../demo/lists_tables.rst
+msgid "Dedication"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:122
+msgid "For Docutils users & co-developers."
+msgstr ""
+
+#: ../../demo/lists_tables.rst
+msgid "abstract"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:126
+msgid ""
+"This document is a demonstration of the reStructuredText markup language,"
+" containing examples of all basic reStructuredText constructs and many "
+"advanced constructs."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:131
+msgid "Bullet Lists"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:139
+msgid "Simple"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:141
+msgid "A simple list."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:142
+msgid "There are no margins between list items."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:143
+msgid "Simple lists do not contain multiple paragraphs. That's a complex list."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:144
+msgid "In the case of a nested list"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:146
+msgid "There are no margins between elements"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:148 ../../demo/lists_tables.rst:150
+msgid "Still no margins"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:153
+msgid "Complex"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:155
+msgid "A bullet list"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:157 ../../demo/lists_tables.rst:164
+msgid "Nested bullet list."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:158 ../../demo/lists_tables.rst:165
+msgid "Nested item 2."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:160 ../../demo/lists_tables.rst:168
+msgid "Item 2."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:162
+msgid "Paragraph 2 of item 2."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:167
+msgid "Third level."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:170
+msgid "Nested item 3."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:172 ../../demo/lists_tables.rst:173
+#: ../../demo/lists_tables.rst:174
+msgid "``inline literall``"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:175 ../../demo/lists_tables.rst:177
+#: ../../demo/lists_tables.rst:178 ../../demo/lists_tables.rst:180
+msgid "This item has multiple paragraphs."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:184
+msgid "Second list level"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:186
+msgid "here is a list in a second-level section."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:187 ../../demo/lists_tables.rst:188
+#: ../../demo/lists_tables.rst:190 ../../demo/lists_tables.rst:202
+#: ../../demo/lists_tables.rst:220
+msgid "`yahoo <http://www.yahoo.com>`_"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:191
+msgid "here is an inner bullet ``oh``"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:193
+msgid "one more ``with an inline literally``. `yahoo <http://www.yahoo.com>`_"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:195
+msgid "heh heh. child. try to beat this embed:"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:201
+msgid "and another. `yahoo <http://www.yahoo.com>`_"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:203
+msgid "``hi``"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:204
+msgid "how about an admonition?"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:207
+msgid "This is a note nested in a list."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:209
+msgid "and hehe"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:212
+msgid "But deeper down the rabbit hole"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:214
+msgid ""
+"I kept saying that, \"deeper down the rabbit hole\". `yahoo "
+"<http://www.yahoo.com>`_"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:216
+msgid "I cackle at night `yahoo <http://www.yahoo.com>`_."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:217
+msgid "I'm so lonely here in GZ ``guangzhou``"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:218
+msgid "A man of python destiny, hopes and dreams. `yahoo <http://www.yahoo.com>`_"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:222
+msgid "`yahoo <http://www.yahoo.com>`_ ``hi``"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:223
+msgid "``destiny``"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:226
+msgid "Hlists"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:231
+msgid "First item"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:232
+msgid "Second item"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:233
+msgid "Third item"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:234
+msgid "Forth item"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:235
+msgid "Fifth item"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:236
+msgid "Sixths item"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:239
+msgid "Hlist with images"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:245 ../../demo/lists_tables.rst:343
+msgid "This is a short caption for a figure."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:249 ../../demo/lists_tables.rst:347
+msgid ""
+"This is a long caption for a figure. Lorem ipsum dolor sit amet, "
+"consectetur adipiscing elit. Donec porttitor dolor in odio posuere, vitae"
+" ornare libero mattis. In lobortis justo vestibulum nibh aliquet, non."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:253
+msgid "Numbered List"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:255
+msgid "One,"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:256
+msgid "Two."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:257
+msgid ""
+"Three with long text. Lorem ipsum dolor sit amet, consectetur adipiscing "
+"elit. Sed feugiat sagittis neque quis eleifend. Duis rutrum lectus sit "
+"amet mattis suscipit."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:260
+msgid "Using bullets and letters. (A)"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:261
+msgid "Using bullets and letters. (B)"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:262
+msgid "Using bullets and letters. (C)"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:265
+msgid "Tables"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:268
+msgid "Grid Tables"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:270
+msgid "Here's a grid table followed by a simple table:"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:273
+msgid "Header row, column 1 (header rows optional)"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:273 ../../demo/lists_tables.rst:303
+#: ../../demo/lists_tables.rst:324
+msgid "Header 2"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:273 ../../demo/lists_tables.rst:303
+msgid "Header 3"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:273
+msgid "Header 4"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:276
+msgid "body row 1, column 1"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:276 ../../demo/lists_tables.rst:305
+#: ../../demo/lists_tables.rst:307 ../../demo/lists_tables.rst:309
+#: ../../demo/lists_tables.rst:311
+msgid "column 2"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:276 ../../demo/lists_tables.rst:305
+#: ../../demo/lists_tables.rst:307 ../../demo/lists_tables.rst:309
+#: ../../demo/lists_tables.rst:311
+msgid "column 3"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:276
+msgid "column 4"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:278
+msgid "body row 2"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:278
+msgid "Cells may span columns."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:280
+msgid "body row 3"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:280
+msgid "Cells may span rows."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:280
+msgid "Table cells"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:281
+msgid "contain"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:282
+msgid "body elements."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:282
+msgid "body row 4"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:284
+msgid "body row 5"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:284
+msgid "Cells may also be empty: ``-->``"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:289
+msgid "Inputs"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:289
+msgid "Output"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:291
+msgid "A"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:291
+msgid "B"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:291
+msgid "A or B"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:293 ../../demo/lists_tables.rst:294
+#: ../../demo/lists_tables.rst:295
+msgid "False"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:294 ../../demo/lists_tables.rst:295
+#: ../../demo/lists_tables.rst:296
+msgid "True"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:300
+msgid "Giant Tables"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:303 ../../demo/lists_tables.rst:323
+msgid "Header 1"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:305 ../../demo/lists_tables.rst:307
+#: ../../demo/lists_tables.rst:309 ../../demo/lists_tables.rst:311
+msgid "body row 1"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:315
+msgid "List Tables"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:317
+msgid "List tables can have captions like this one."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:322
+msgid "List table"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:325
+msgid ""
+"Header 3 long. Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+"Nam sit amet mauris arcu."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:326
+msgid "Stub Row 1"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:327
+msgid "Row 1"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:328 ../../demo/lists_tables.rst:332
+#: ../../demo/lists_tables.rst:336
+msgid "Column 2"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:329 ../../demo/lists_tables.rst:333
+#: ../../demo/lists_tables.rst:337
+msgid ""
+"Column 3 long. Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+"Nam sit amet mauris arcu."
+msgstr ""
+
+#: ../../demo/lists_tables.rst:330
+msgid "Stub Row 2"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:331
+msgid "Row 2"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:334
+msgid "Stub Row 3"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:335
+msgid "Row 3"
+msgstr ""
+
+#: ../../demo/lists_tables.rst:339
+msgid "This is a list table with images in it."
+msgstr ""
+

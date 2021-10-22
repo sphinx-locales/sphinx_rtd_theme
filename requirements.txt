@@ -26,3 +26,7 @@ linkify-it-py
 sphinx-rtd-theme
 sphinx-intl
 sphinxcontrib-websupport
+
+# sphinx_rtd_theme
+
+sphinxcontrib-httpdomain
