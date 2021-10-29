@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../../demo/long.rst:4
 msgid "Long Sticky Nav"
-msgstr "长条状导航"
+msgstr "长贴式导航"
 
 #: ../../demo/long.rst:6
 msgid "Table of Contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../demo/long.rst:8
 msgid ""
@@ -32,6 +32,8 @@ msgid ""
 "when the menu is very long. When this section is selected, it will make "
 "the menu and the main area scroll when you are at the top of the page."
 msgstr ""
+"本节演示了当菜单很长时，`sticky_navigation` 设置是如何表现的。"
+"当本节被选中时，它将使菜单和主区域在你处于页面顶部时滚动。"
 
 #: ../../demo/long.rst:13
 msgid "Example Menu 1"

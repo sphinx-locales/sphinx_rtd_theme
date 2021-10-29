@@ -234,7 +234,7 @@ msgid ""
 "recommended that authors pin dependency on ``sphinx_rtd_theme`` to a "
 "version below the next major version:"
 msgstr ""
-"版本遵循 `semantic versioning`_，"
+"版本遵循 `语义化版本`_，"
 "因此一般建议作者将对 ``sphinx_rtd_theme`` 的依赖性固定在低于下一个主版本的版本："
 
 #: ../../development.rst:100
@@ -392,7 +392,8 @@ msgid ""
 "support and should no longer be required to use a modern combination of "
 "this theme and Sphinx."
 msgstr ""
-"这个选项在过去被建议用来解决 HTML5 支持的问题，不应该再要求使用这个主题和斯芬克斯的现代组合。"
+"这个选项在过去被建议用来解决 HTML5 支持的问题，"
+"不应该再这个主题和 Sphinx 的现代组合所需要。"
 
 #: ../../development.rst:172
 msgid "3.0.0"

@@ -280,7 +280,7 @@ msgid ""
 msgstr ""
 "通过运行 ``bump2version [major|minor|patch|dev]`` 来提升版本。"
 "这将自动增加版本号的正确部分，你不需要指定准确的版本号。"
-"我们遵循 `semantic versioning`_ 和 `PEP440`_ （关于 alpha 版本和开发版本）。"
+"我们遵循 `语义化版本`_ 和 `PEP440`_ （关于 alpha 版本和开发版本）。"
 "版本增量应该反映这些版本和任何潜在的破坏性变化。"
 
 #: ../../contributing.rst:181

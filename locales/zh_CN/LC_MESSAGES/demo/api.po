@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Read the Docs Sphinx Theme 1.0.1alpha1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 13:49+0800\n"
+"POT-Creation-Date: 2021-10-29 22:50+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,7 +75,7 @@ msgstr ""
 #: ../../demo/api.rst of test_py_module.test.Foo.__init__
 #: test_py_module.test.Foo.add test_py_module.test.Foo.another_function
 #: test_py_module.test.Foo.capitalize
-msgid "参数"
+msgid "Parameters"
 msgstr ""
 
 #: of test_py_module.test.Foo.__init__:3
@@ -104,7 +104,7 @@ msgstr ""
 
 #: of test_py_module.test.Foo.add test_py_module.test.Foo.another_function
 #: test_py_module.test.Foo.capitalize
-msgid "返回类型"
+msgid "Return type"
 msgstr ""
 
 #: of test_py_module.test.Foo.another_function:1
@@ -127,7 +127,7 @@ msgid ""
 msgstr ""
 
 #: of test_py_module.test.Foo.another_function
-msgid "返回"
+msgid "Returns"
 msgstr ""
 
 #: of test_py_module.test.Foo.another_function:15
@@ -138,7 +138,7 @@ msgid ""
 msgstr ""
 
 #: of test_py_module.test.Foo.another_function
-msgid "引发"
+msgid "Raises"
 msgstr ""
 
 #: of test_py_module.test.Foo.another_function:20
@@ -339,5 +339,17 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Raises"
+#~ msgstr ""
+
+#~ msgid "参数"
+#~ msgstr ""
+
+#~ msgid "返回类型"
+#~ msgstr ""
+
+#~ msgid "返回"
+#~ msgstr ""
+
+#~ msgid "引发"
 #~ msgstr ""
 

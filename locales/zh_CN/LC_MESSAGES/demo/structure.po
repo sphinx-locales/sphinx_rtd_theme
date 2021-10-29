@@ -24,7 +24,7 @@ msgstr "结构性元素"
 
 #: ../../demo/structure.rst:6
 msgid "Table of Contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../demo/structure.rst:8
 msgid ""
@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../demo/structure.rst:23 ../../demo/structure.rst:72
 msgid "Document Section"
-msgstr ""
+msgstr "文档部分"
 
 #: ../../demo/structure.rst:25 ../../demo/structure.rst:74
 msgid ""
@@ -68,7 +68,7 @@ msgstr ""
 
 #: ../../demo/structure.rst:33 ../../demo/structure.rst:82
 msgid "Document Subsection"
-msgstr ""
+msgstr "子文档部分"
 
 #: ../../demo/structure.rst:35
 msgid ""
@@ -84,7 +84,7 @@ msgid ""
 "sed magna vehicula finibus. Proin tempus orci quis dolor tempus, nec "
 "condimentum odio vestibulum. Etiam efficitur sollicitudin libero, "
 "tincidunt volutpat ligula interdum sed."
-msgstr ""
+msgstr "三级文档部分"
 
 #: ../../demo/structure.rst:45
 msgid "Document Subsubsection"
@@ -105,7 +105,7 @@ msgstr ""
 
 #: ../../demo/structure.rst:55
 msgid "Document Paragraph"
-msgstr ""
+msgstr "文档段落"
 
 #: ../../demo/structure.rst:57
 msgid ""
@@ -119,11 +119,11 @@ msgstr ""
 
 #: ../../demo/structure.rst:64
 msgid "Structural Elements 2"
-msgstr ""
+msgstr "结构性元素 2"
 
 #: ../../demo/structure.rst:88
 msgid "This is a caption for a figure. Text should wrap around the caption."
-msgstr ""
+msgstr "这是一个图的标题。文字应该围绕着标题展开。"
 
 #: ../../demo/structure.rst:90
 msgid ""
