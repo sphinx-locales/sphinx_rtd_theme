@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>更新日志 &mdash; Read the Docs Sphinx Theme 1.0.1alpha1 文档</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+        <script src="_static/debug.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="1. 结构性元素" href="demo/structure.html" />
+    <link rel="prev" title="贡献" href="contributing.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html">
+            <img src="_static/logo-wordmark-light.svg" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                1.0.1alpha1
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">主题文档</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installing.html">安装</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuring.html">配置</a></li>
+<li class="toctree-l1"><a class="reference internal" href="development.html">开发</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">贡献</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">更新日志</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#development-version-development-version">开发版本（1.0.1alpha1）。</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#release-1-0-0">1.0.0</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#incompatible-changes">不兼容的变更</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#deprecated">Deprecated</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#features">Features</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fixes">Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#other-changes">Other Changes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#release-0-5-2">0.5.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#release-0-5-1">0.5.1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#new-features">New Features</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Other Changes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#release-0-5-0">0.5.0</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Fixes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#rc2">0.5.0rc2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Fixes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#rc1">0.5.0rc1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id9">Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id10">Other Changes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#release-0-4-3">0.4.3</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id12">New Features</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id13">Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id14">Other Changes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#release-0-4-2">0.4.2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id16">New Features</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id17">Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id18">Other Changes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id19">0.4.1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id20">New Features</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id21">Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id22">Other Changes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id23">0.4.0</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id24">New Features</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id25">Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id26">Other Changes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id27">0.3.1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id28">Fixes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id29">0.3.0</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id30">New Features</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id31">Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id32">Other Changes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id33">0.2.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id34">0.2.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id35">0.2.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id36">0.2.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id37">0.2.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#alpha">0.1.10-alpha</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id38">0.1.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id40">0.1.8</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">演示文档</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="demo/structure.html">1. 结构性元素</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo/structure.html#structural-elements-2">2. 结构性元素 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo/demo.html">3. Paragraph Level Markup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo/lists_tables.html">4. 列表和表格</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo/api.html">5. API文档和生成的内容</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">这是一个长菜单的难以置信的长标题</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="demo/long.html">1. 长贴式导航</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Read the Docs Sphinx Theme</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>更新日志</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/changelog.rst.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="changelog">
+<h1>更新日志<a class="headerlink" href="#changelog" title="永久链接至标题"></a></h1>
+<section id="development-version-development-version">
+<h2>开发版本（1.0.1alpha1）。<a class="headerlink" href="#development-version-development-version" title="永久链接至标题"></a></h2>
+</section>
+<section id="release-1-0-0">
+<span id="id1"></span><h2>1.0.0<a class="headerlink" href="#release-1-0-0" title="永久链接至标题"></a></h2>
+<section id="incompatible-changes">
+<h3>不兼容的变更<a class="headerlink" href="#incompatible-changes" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>现在最小支持的 Python 版本为 2.7 或 3.4 及更高版本（#1093）</p></li>
+<li><p>现在最小支持的 Sphinx 版本是 1.6（#1091）</p></li>
+</ul>
+</section>
+<section id="deprecated">
+<h3>Deprecated<a class="headerlink" href="#deprecated" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Support for Sphinx’s HTML4 writer is deprecated and will be removed in version 2.0 (#1091)</p></li>
+</ul>
+</section>
+<section id="features">
+<h3>Features<a class="headerlink" href="#features" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Add support for Sphinx 4.x (#1123)</p></li>
+<li><p>Add support for Docutils 0.17 (#1185 and #1199)</p></li>
+<li><p>Fixed logo scaling on IE11 (#1183)</p></li>
+<li><p>Added support for logos as URLs (#1171)</p></li>
+<li><p>Align top and side navigation background colors on mobile (#1132)</p></li>
+<li><p>Added support for deep toc levels (#1089)</p></li>
+<li><p>Updated translations for Chinese, Dutch, Estonian, French, German, Italian,
+Lithuanian, Persian, Polish, Portuguese, Russian, Spanish, Swedish, and
+Turkish locales</p></li>
+</ul>
+<p>A number of accessibility features were added in this release:</p>
+<ul class="simple">
+<li><p>Allow keyboard to toggle menu expansion (#1167)</p></li>
+<li><p>Allow keyboard to activate permalink (#1162)</p></li>
+<li><p>Show keyboard focus on buttons (#1161)</p></li>
+<li><p>Maintain aria-expanded along with .current in menu (#1151)</p></li>
+<li><p>Respect tab order for prev/next buttons (#1051)</p></li>
+</ul>
+</section>
+<section id="fixes">
+<h3>Fixes<a class="headerlink" href="#fixes" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Updated Google analytics integration (#1129)</p></li>
+<li><p>Add classifier separation on Sphinx 2+ HTML4 writer (#1192)</p></li>
+<li><p>Added missing space char in footer (#1188)</p></li>
+<li><p>Fix navigation right padding on level2+ elements (#1068)</p></li>
+<li><p>Fix navigation expansion button sizes (#1067)</p></li>
+<li><p>Wrap inline literals (#1050)</p></li>
+<li><p>Fix aria labels (#1056)</p></li>
+<li><p>Don’t toggle navigation terminal nodes (#1049)</p></li>
+<li><p>Fix <code class="docutils literal notranslate"><span class="pre">&lt;pre&gt;</span></code> overflow (#1220)</p></li>
+<li><p>Fix literal/ref style inside <code class="docutils literal notranslate"><span class="pre">&lt;dl&gt;</span></code> (#1088)</p></li>
+</ul>
+</section>
+<section id="other-changes">
+<h3>Other Changes<a class="headerlink" href="#other-changes" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Update npm development dependencies (#1096)</p></li>
+<li><p>Don’t require npm to build from source (#1039)</p></li>
+<li><p>Use regular toctree instead of toc for singlehtml builder (#507)</p></li>
+<li><p>Cleanup whitespace in templates (#1060)</p></li>
+</ul>
+</section>
+</section>
+<section id="release-0-5-2">
+<span id="id2"></span><h2>0.5.2<a class="headerlink" href="#release-0-5-2" title="永久链接至标题"></a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">Date</dt>
+<dd class="field-odd"><p>April 5, 2021</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">注解</p>
+<p>This commit will not be in <code class="docutils literal notranslate"><span class="pre">master</span></code>, but was branched directly off <code class="docutils literal notranslate"><span class="pre">0.5.1</span></code> to minimize issues.
+The next full release will contain all PR’s previously merged.</p>
+</div>
+<ul class="simple">
+<li><p>Depend on docutils &lt; 0.17 (#1113)</p></li>
+</ul>
+</section>
+<section id="release-0-5-1">
+<span id="id3"></span><h2>0.5.1<a class="headerlink" href="#release-0-5-1" title="永久链接至标题"></a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">Date</dt>
+<dd class="field-odd"><p>January 4, 2021</p>
+</dd>
+</dl>
+<section id="id4">
+<h3>Fixes<a class="headerlink" href="#id4" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Set <code class="docutils literal notranslate"><span class="pre">url_root</span></code> properly on index (#1025)</p></li>
+<li><p>Do not load <code class="docutils literal notranslate"><span class="pre">language_data.js</span></code> in non-search pages (#1021)</p></li>
+<li><p>Hide the search box on any <code class="docutils literal notranslate"><span class="pre">singlehtml</span></code> like builder (#975)</p></li>
+<li><p>Fix <code class="docutils literal notranslate"><span class="pre">vcs_pageview_mode</span></code> template parameter (#1010)</p></li>
+<li><p>Mark nex/prev icons as aria-hidden (#1007)</p></li>
+<li><p>Use well-formed XML syntax (#1006)</p></li>
+<li><p>Footer: show both <code class="docutils literal notranslate"><span class="pre">commit</span></code> and <code class="docutils literal notranslate"><span class="pre">last_updated</span></code> if available (#897)</p></li>
+<li><p>Search page: don’t show “edit on” links (#935)</p></li>
+</ul>
+</section>
+<section id="new-features">
+<h3>New Features<a class="headerlink" href="#new-features" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>New theme option to enable anonymous ip addresses when using Google Analytics (#889)</p></li>
+</ul>
+</section>
+<section id="id5">
+<h3>Other Changes<a class="headerlink" href="#id5" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>The <code class="docutils literal notranslate"><span class="pre">canonical_url</span></code> option was deprecated in favor of Sphinx’s <code class="docutils literal notranslate"><span class="pre">html_baseurl</span></code> (#1003)</p></li>
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">contentinfo</span></code> block to <code class="docutils literal notranslate"><span class="pre">footer.html</span></code> template (#896)</p></li>
+<li><p>Make Copyright template match sphinx’s basic (#933)</p></li>
+<li><p>Packaging: include <code class="docutils literal notranslate"><span class="pre">bin/preinstall.js</span></code> (#1005)</p></li>
+</ul>
+</section>
+</section>
+<section id="release-0-5-0">
+<span id="id6"></span><h2>0.5.0<a class="headerlink" href="#release-0-5-0" title="永久链接至标题"></a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">Date</dt>
+<dd class="field-odd"><p>Jun 17, 2020</p>
+</dd>
+</dl>
+<section id="id7">
+<h3>Fixes<a class="headerlink" href="#id7" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Fix bullet list spacing to respect simple/complex list styles</p></li>
+</ul>
+</section>
+</section>
+<section id="rc2">
+<span id="release-0-5-0rc2"></span><h2>0.5.0rc2<a class="headerlink" href="#rc2" title="永久链接至标题"></a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">Date</dt>
+<dd class="field-odd"><p>June 5, 2020</p>
+</dd>
+</dl>
+<section id="id8">
+<h3>Fixes<a class="headerlink" href="#id8" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Fix issue with simple definition lists that was missed</p></li>
+<li><p>Change FOUT back to FOIT</p></li>
+<li><p>Fix several margin issues with lists, nested lists, and nested content</p></li>
+<li><p>Add colon back to field lists</p></li>
+</ul>
+</section>
+</section>
+<section id="rc1">
+<span id="release-0-5-0rc1"></span><h2>0.5.0rc1<a class="headerlink" href="#rc1" title="永久链接至标题"></a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">Date</dt>
+<dd class="field-odd"><p>May 6, 2020</p>
+</dd>
+</dl>
+<section id="id9">
+<h3>Fixes<a class="headerlink" href="#id9" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Fix many styling issues that look different when using the Sphinx HTML5 writer</p></li>
+</ul>
+</section>
+<section id="id10">
+<h3>Other Changes<a class="headerlink" href="#id10" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Add the <code class="docutils literal notranslate"><span class="pre">navigation</span></code> template block around the navigation area.</p></li>
+<li><p>Added i18n support using Babel</p></li>
+<li><p>Added translations for 10 new languages</p></li>
+<li><p>Moved build system from Grunt and friends to Webpack</p></li>
+<li><p>Remove Modernizr, but keep html5shiv (#724, #525)</p></li>
+</ul>
+</section>
+</section>
+<section id="release-0-4-3">
+<span id="id11"></span><h2>0.4.3<a class="headerlink" href="#release-0-4-3" title="永久链接至标题"></a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">Date</dt>
+<dd class="field-odd"><p>Feb 12, 2019</p>
+</dd>
+</dl>
+<section id="id12">
+<h3>New Features<a class="headerlink" href="#id12" title="永久链接至标题"></a></h3>
+</section>
+<section id="id13">
+<h3>Fixes<a class="headerlink" href="#id13" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Fix scrolling to active item in sidebar on load (#214)</p></li>
+<li><p>Style caption link for code and literal blocks</p></li>
+<li><p>Fix inconsistent font size and line height for autodoc “raises” and “returns” (#267)</p></li>
+<li><p>Fix last_updated notice appearing in same line as copyright notice (#704)</p></li>
+</ul>
+</section>
+<section id="id14">
+<h3>Other Changes<a class="headerlink" href="#id14" title="永久链接至标题"></a></h3>
+</section>
+</section>
+<section id="release-0-4-2">
+<span id="id15"></span><h2>0.4.2<a class="headerlink" href="#release-0-4-2" title="永久链接至标题"></a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">Date</dt>
+<dd class="field-odd"><p>Oct 5, 2018</p>
+</dd>
+</dl>
+<section id="id16">
+<h3>New Features<a class="headerlink" href="#id16" title="永久链接至标题"></a></h3>
+</section>
+<section id="id17">
+<h3>Fixes<a class="headerlink" href="#id17" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Set base font size on &lt;html&gt; (#668)</p></li>
+<li><p>Fix HTML search not working with Sphinx-1.8 (#672)</p></li>
+</ul>
+</section>
+<section id="id18">
+<h3>Other Changes<a class="headerlink" href="#id18" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Upload signed packages to PyPI with twine (#651)</p></li>
+<li><p>Do not enforce period at the end of copyright statement (666)</p></li>
+</ul>
+</section>
+</section>
+<section id="id19">
+<h2>0.4.1<a class="headerlink" href="#id19" title="永久链接至标题"></a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">Date</dt>
+<dd class="field-odd"><p>July 27, 2018</p>
+</dd>
+</dl>
+<section id="id20">
+<h3>New Features<a class="headerlink" href="#id20" title="永久链接至标题"></a></h3>
+</section>
+<section id="id21">
+<h3>Fixes<a class="headerlink" href="#id21" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Line height adjustments for Liberation Mono (#656)</p></li>
+</ul>
+</section>
+<section id="id22">
+<h3>Other Changes<a class="headerlink" href="#id22" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Add Sphinx as a dependency</p></li>
+</ul>
+</section>
+</section>
+<section id="id23">
+<h2>0.4.0<a class="headerlink" href="#id23" title="永久链接至标题"></a></h2>
+<p>This version made some changes to how JS and CSS were included
+when the theme is used on Read the Docs.</p>
+<section id="id24">
+<h3>New Features<a class="headerlink" href="#id24" title="永久链接至标题"></a></h3>
+</section>
+<section id="id25">
+<h3>Fixes<a class="headerlink" href="#id25" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Do not rely on readthedocs.org for CSS/JS (#614)</p></li>
+<li><p>Color accessibility improvements on the left navigation</p></li>
+</ul>
+</section>
+<section id="id26">
+<h3>Other Changes<a class="headerlink" href="#id26" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Write theme version and build date at top of JavaScript and CSS</p></li>
+<li><p>Changed code and literals to use a native font stack (#612)</p></li>
+<li><p>Fix small styling issues</p></li>
+</ul>
+</section>
+</section>
+<section id="id27">
+<h2>0.3.1<a class="headerlink" href="#id27" title="永久链接至标题"></a></h2>
+<section id="id28">
+<h3>Fixes<a class="headerlink" href="#id28" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Revert part of #576 causing display issues with version selector menu</p></li>
+<li><p>Backwards compatibility fixes for pre-0.3.0 releases (#623)</p></li>
+<li><p>Fix mkdocs version selector (#622)</p></li>
+<li><p>Add open list spacing (#591)</p></li>
+<li><p>Fix table centering (#599)</p></li>
+</ul>
+</section>
+</section>
+<section id="id29">
+<h2>0.3.0<a class="headerlink" href="#id29" title="永久链接至标题"></a></h2>
+<p><strong>Note</strong>: this version resulted in some JavaScript incompatibilities when used on readthedocs.org</p>
+<section id="id30">
+<h3>New Features<a class="headerlink" href="#id30" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Add html language attribute</p></li>
+<li><p>Allow setting ‘rel’ and ‘title’ attributes for stylesheets (#551)</p></li>
+<li><p>Add option to style external links</p></li>
+<li><p>Add github, gitlab, bitbucket page arguments option</p></li>
+<li><p>Add pygments support</p></li>
+<li><p>Add setuptools entry point allowing to use <code class="docutils literal notranslate"><span class="pre">sphinx_rtd_theme</span></code> as
+Sphinx <code class="docutils literal notranslate"><span class="pre">html_theme</span></code> directly.</p></li>
+<li><p>Add language to the JS output variable</p></li>
+</ul>
+</section>
+<section id="id31">
+<h3>Fixes<a class="headerlink" href="#id31" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Fix some HTML warnings and errors</p></li>
+<li><p>Fix many styling issues</p></li>
+<li><p>Fix many sidebar glitches</p></li>
+<li><p>Fix line number spacing to align with the code lines</p></li>
+<li><p>Hide Edit links on auto created pages</p></li>
+<li><p>Include missing font files with the theme</p></li>
+</ul>
+</section>
+<section id="id32">
+<h3>Other Changes<a class="headerlink" href="#id32" title="永久链接至标题"></a></h3>
+<ul class="simple">
+<li><p>Significant improvement of our documentation</p></li>
+<li><p>Compress our Javascript files</p></li>
+<li><p>Updated dependencies</p></li>
+</ul>
+</section>
+</section>
+<section id="id33">
+<h2>0.2.4<a class="headerlink" href="#id33" title="永久链接至标题"></a></h2>
+<ul class="simple">
+<li><p>Yet another patch to deal with extra builders outside Spinx, such as the
+singlehtml builders from the Read the Docs Sphinx extension</p></li>
+</ul>
+</section>
+<section id="id34">
+<h2>0.2.3<a class="headerlink" href="#id34" title="永久链接至标题"></a></h2>
+<ul class="simple">
+<li><p>Temporarily patch Sphinx issue with <code class="docutils literal notranslate"><span class="pre">singlehtml</span></code> builder by inspecting the
+builder in template.</p></li>
+</ul>
+</section>
+<section id="id35">
+<h2>0.2.2<a class="headerlink" href="#id35" title="永久链接至标题"></a></h2>
+<ul class="simple">
+<li><p>Roll back toctree fix in 0.2.1 (#367). This didn’t fix the issue and
+introduced another bug with toctrees display.</p></li>
+</ul>
+</section>
+<section id="id36">
+<h2>0.2.1<a class="headerlink" href="#id36" title="永久链接至标题"></a></h2>
+<ul class="simple">
+<li><p>Add the <code class="docutils literal notranslate"><span class="pre">rel</span></code> HTML attribute to the footer links which point to
+the previous and next pages.</p></li>
+<li><p>Fix toctree issue caused by Sphinx singlehtml builder (#367)</p></li>
+</ul>
+</section>
+<section id="id37">
+<h2>0.2.0<a class="headerlink" href="#id37" title="永久链接至标题"></a></h2>
+<ul class="simple">
+<li><p>Adds the <code class="docutils literal notranslate"><span class="pre">comments</span></code> block after the <code class="docutils literal notranslate"><span class="pre">body</span></code> block in the template</p></li>
+<li><p>Added “Edit on GitLab” support</p></li>
+<li><p>Many bug fixes</p></li>
+</ul>
+</section>
+<section id="alpha">
+<h2>0.1.10-alpha<a class="headerlink" href="#alpha" title="永久链接至标题"></a></h2>
+<div class="admonition note">
+<p class="admonition-title">注解</p>
+<p>This is a pre-release version</p>
+</div>
+<ul class="simple">
+<li><p>Removes Sphinx dependency</p></li>
+<li><p>Fixes hamburger on mobile display</p></li>
+<li><p>Adds a <code class="docutils literal notranslate"><span class="pre">body_begin</span></code> block to the template</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">prev_next_buttons_location</span></code></p></li>
+</ul>
+</section>
+<section id="id38">
+<h2>0.1.9<a class="headerlink" href="#id38" title="永久链接至标题"></a></h2>
+<ul class="simple">
+<li><p>Intermittent scrollbar visibility bug fixed. This change introduces a
+backwards incompatible change to the theme’s layout HTML. This should only be
+a problem for derivative themes that have overridden styling of nav elements
+using direct descendant selectors. See <a class="reference external" href="https://github.com/rtfd/sphinx_rtd_theme/pull/215">#215</a> for more information.</p></li>
+<li><p>Safari overscroll bug fixed</p></li>
+<li><p>Version added to the nav header</p></li>
+<li><p>Revision id was added to the documentation footer if you are using RTD</p></li>
+<li><p>An extra block, <code class="docutils literal notranslate"><span class="pre">extrafooter</span></code> was added to allow extra content in the
+document footer block</p></li>
+<li><p>Fixed modernizr URL</p></li>
+<li><p>Small display style changes on code blocks, figure captions, and nav elements</p></li>
+</ul>
+</section>
+<section id="id40">
+<h2>0.1.8<a class="headerlink" href="#id40" title="永久链接至标题"></a></h2>
+<ul class="simple">
+<li><p>Start keeping changelog :)</p></li>
+<li><p>Support for third and fourth level headers in the sidebar</p></li>
+<li><p>Add support for Sphinx 1.3</p></li>
+<li><p>Add sidebar headers for :caption: in Sphinx toctree</p></li>
+<li><p>Clean up sidebar scrolling behavior so it never scrolls out of view</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="contributing.html" class="btn btn-neutral float-left" title="贡献" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="demo/structure.html" class="btn btn-neutral float-right" title="1. 结构性元素" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 Dave Snider, Read the Docs, Inc. &amp; contributors.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+    <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="版本">
+      <span class="rst-current-version" data-toggle="rst-current-version">
+        <span class="fa fa-book"> Read the Docs</span>
+        v: latest
+        <span class="fa fa-caret-down"></span>
+      </span>
+      <div class="rst-other-versions">
+        <dl>
+          <dt>版本</dt>
+            <dd><a href="#">0.1</a></dd>
+            <dd><a href="#">0.2</a></dd>
+            <dd><a href="#">0.3</a></dd>
+            <dd><a href="#">0.4</a></dd>
+            <dd><a href="#">0.5</a></dd>
+            <dd><a href="#">0.6</a></dd>
+            <dd><a href="#">0.7</a></dd>
+            <dd><a href="#">0.8</a></dd>
+            <dd><a href="#">0.9</a></dd>
+            <dd><a href="#">1.0</a></dd>
+            <dd><a href="#">1.1</a></dd>
+            <dd><a href="#">1.2</a></dd>
+            <dd><a href="#">1.3</a></dd>
+            <dd><a href="#">1.4</a></dd>
+            <dd><a href="#">1.5</a></dd>
+            <dd><a href="#">1.6</a></dd>
+            <dd><a href="#">1.7</a></dd>
+            <dd><a href="#">1.8</a></dd>
+            <dd><a href="#">1.9</a></dd>
+            <dd><a href="#">2.0</a></dd>
+            <dd><a href="#">2.1</a></dd>
+            <dd><a href="#">2.2</a></dd>
+            <dd><a href="#">2.3</a></dd>
+            <dd><a href="#">2.4</a></dd>
+            <dd><a href="#">2.5</a></dd>
+            <dd><a href="#">2.6</a></dd>
+            <dd><a href="#">2.7</a></dd>
+            <dd><a href="#">2.8</a></dd>
+            <dd><a href="#">2.9</a></dd>
+            <dd><a href="#">3.0</a></dd>
+            <dd><a href="#">3.1</a></dd>
+            <dd><a href="#">3.2</a></dd>
+            <dd><a href="#">3.3</a></dd>
+            <dd><a href="#">3.4</a></dd>
+            <dd><a href="#">3.5</a></dd>
+            <dd><a href="#">3.6</a></dd>
+            <dd><a href="#">3.7</a></dd>
+            <dd><a href="#">3.8</a></dd>
+            <dd><a href="#">3.9</a></dd>
+            <dd><a href="#">4.0</a></dd>
+            <dd><a href="#">4.1</a></dd>
+            <dd><a href="#">4.2</a></dd>
+            <dd><a href="#">4.3</a></dd>
+            <dd><a href="#">4.4</a></dd>
+            <dd><a href="#">4.5</a></dd>
+            <dd><a href="#">4.6</a></dd>
+            <dd><a href="#">4.7</a></dd>
+            <dd><a href="#">4.8</a></dd>
+            <dd><a href="#">4.9</a></dd>
+            <dd><a href="#">5.0</a></dd>
+            <dd><a href="#">5.1</a></dd>
+            <dd><a href="#">5.2</a></dd>
+            <dd><a href="#">5.3</a></dd>
+            <dd><a href="#">5.4</a></dd>
+            <dd><a href="#">5.5</a></dd>
+            <dd><a href="#">5.6</a></dd>
+            <dd><a href="#">5.7</a></dd>
+            <dd><a href="#">5.8</a></dd>
+            <dd><a href="#">5.9</a></dd>
+            <dd><a href="#">6.0</a></dd>
+            <dd><a href="#">6.1</a></dd>
+            <dd><a href="#">6.2</a></dd>
+            <dd><a href="#">6.3</a></dd>
+            <dd><a href="#">6.4</a></dd>
+            <dd><a href="#">6.5</a></dd>
+            <dd><a href="#">6.6</a></dd>
+            <dd><a href="#">6.7</a></dd>
+            <dd><a href="#">6.8</a></dd>
+            <dd><a href="#">6.9</a></dd>
+            <dd><a href="#">7.0</a></dd>
+            <dd><a href="#">7.1</a></dd>
+            <dd><a href="#">7.2</a></dd>
+            <dd><a href="#">7.3</a></dd>
+            <dd><a href="#">7.4</a></dd>
+            <dd><a href="#">7.5</a></dd>
+            <dd><a href="#">7.6</a></dd>
+            <dd><a href="#">7.7</a></dd>
+            <dd><a href="#">7.8</a></dd>
+            <dd><a href="#">7.9</a></dd>
+            <dd><a href="#">8.0</a></dd>
+            <dd><a href="#">8.1</a></dd>
+            <dd><a href="#">8.2</a></dd>
+            <dd><a href="#">8.3</a></dd>
+            <dd><a href="#">8.4</a></dd>
+            <dd><a href="#">8.5</a></dd>
+            <dd><a href="#">8.6</a></dd>
+            <dd><a href="#">8.7</a></dd>
+            <dd><a href="#">8.8</a></dd>
+            <dd><a href="#">8.9</a></dd>
+            <dd><a href="#">9.0</a></dd>
+            <dd><a href="#">9.1</a></dd>
+            <dd><a href="#">9.2</a></dd>
+            <dd><a href="#">9.3</a></dd>
+            <dd><a href="#">9.4</a></dd>
+            <dd><a href="#">9.5</a></dd>
+            <dd><a href="#">9.6</a></dd>
+            <dd><a href="#">9.7</a></dd>
+            <dd><a href="#">9.8</a></dd>
+            <dd><a href="#">9.9</a></dd>
+        </dl>
+        <dl>
+          <dt>下载</dt>
+          <dd><a href="#">PDF</a></dd>
+          <dd><a href="#">ePub</a></dd>
+          <dd><a href="#">HTML</a></dd>
+        </dl>
+        <dl>
+          <dt>在 Read the Docs 上</dt>
+            <dd>
+              <a href="#">项目主页</a>
+            </dd>
+            <dd>
+              <a href="#">构建</a>
+            </dd>
+        </dl>
+        <dl>
+          <dt>Debug</dt>
+          <dd><a href="#" data-toggle="rst-debug-badge">Swap badge position</a></dd>
+        </dl>
+      </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>开发 &mdash; Read the Docs Sphinx Theme 1.0.1alpha1 文档</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+        <script src="_static/debug.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="贡献" href="contributing.html" />
+    <link rel="prev" title="配置" href="configuring.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html">
+            <img src="_static/logo-wordmark-light.svg" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                1.0.1alpha1
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">主题文档</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installing.html">安装</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuring.html">配置</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">开发</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#supported-browsers">支持的浏览器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#supported-dependencies">支持的依赖</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#roadmap">路线图</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#release-1-0-0">1.0.0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-1-1-0">1.1.0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-2-0-0">2.0.0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#release-3-0-0">3.0.0</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">贡献</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">更新日志</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">演示文档</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="demo/structure.html">1. 结构性元素</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo/structure.html#structural-elements-2">2. 结构性元素 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo/demo.html">3. Paragraph Level Markup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo/lists_tables.html">4. 列表和表格</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo/api.html">5. API文档和生成的内容</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">这是一个长菜单的难以置信的长标题</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="demo/long.html">1. 长贴式导航</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Read the Docs Sphinx Theme</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>开发</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/development.rst.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="development">
+<h1>开发<a class="headerlink" href="#development" title="永久链接至标题"></a></h1>
+<p>主题开发者遵循以下准则进行开发和发布计划。文档作者可以根据所需的浏览器/操作系统组合或依赖性支持来决定哪一个主题版本最适合他们的项目。</p>
+<section id="supported-browsers">
+<span id="id1"></span><h2>支持的浏览器<a class="headerlink" href="#supported-browsers" title="永久链接至标题"></a></h2>
+<p>官方浏览器支持由我们的页面浏览分析中最流行的浏览器/操作系统组合决定。官方支持的组合通常在开发过程中进行测试，并在新版本的主题最终发布前进行测试。</p>
+<p>支持的组合的较旧版本，以及一些不太常见的组合，被认为是部分支持。这意味着我们并没有对这些组合进行持续的测试，但是我们希望用户体验能够与支持的组合相媲美。</p>
+<table class="colwidths-given docutils align-default" id="id7">
+<caption><span class="caption-text">支持的浏览器组合</span><a class="headerlink" href="#id7" title="永久链接至表格"></a></caption>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 55%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>浏览器</p></th>
+<th class="head"><p>操作系统</p></th>
+<th class="head"><p>版本</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Chrome</p></td>
+<td><p>Windows, MacOS, Linux, Android</p></td>
+<td><p>&gt;=90</p></td>
+</tr>
+<tr class="row-odd"><td><p>Firefox</p></td>
+<td><p>Linux, Windows</p></td>
+<td><p>&gt;=90</p></td>
+</tr>
+<tr class="row-even"><td><p>Edge</p></td>
+<td><p>Windows</p></td>
+<td><p>&gt;=90</p></td>
+</tr>
+<tr class="row-odd"><td><p>Safari</p></td>
+<td><p>MacOS, iOS</p></td>
+<td><p>&gt;=13</p></td>
+</tr>
+</tbody>
+</table>
+<div class="versionadded">
+<p><span class="versionmodified added">1.0 新版功能: </span>增加了支持的浏览器和操作系统组合</p>
+</div>
+<p>有几个浏览器/操作系统组合根本不被主题开发者所支持。不支持的组合不接受测试或开发，我们可能不会接受这些组合的主要贡献。</p>
+<p>不支持的浏览器/操作系统组合包括。</p>
+<dl class="simple">
+<dt>Internet Explorer（任何操作系统，版本 &lt;=10）。</dt><dd><p><strong>不支持</strong>。IE11 是最后一个部分支持的版本。我们不对之前的版本进行测试。</p>
+</dd>
+<dt>Internet Explorer（任何操作系统，版本11）。</dt><dd><p>我们目前只部分支持 IE11，而且只测试主要的错误。支持将在 <span class="xref std std-ref">2.0.0</span> 版本中删除。</p>
+</dd>
+<dt>Opera（任何操作系统，任何版本）</dt><dd><p><strong>社区支持</strong>。我们没有收到足够的该浏览器的流量，无法在测试和开发中正式支持它。</p>
+</dd>
+</dl>
+</section>
+<section id="supported-dependencies">
+<span id="id2"></span><h2>支持的依赖<a class="headerlink" href="#supported-dependencies" title="永久链接至标题"></a></h2>
+<p>该主题在你的 Sphinx 项目中正式支持以下依赖：</p>
+<table class="colwidths-given docutils align-default" id="id8">
+<caption><span class="caption-text">支持的依赖</span><a class="headerlink" href="#id8" title="永久链接至表格"></a></caption>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>依赖关系</p></th>
+<th class="head"><p>版本</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Python</p></td>
+<td><p>2.7 或 3.6 或更高</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sphinx</p></td>
+<td><p>1.7 至至少 4.1</p></td>
+</tr>
+<tr class="row-even"><td><p>docutils</p></td>
+<td><p>高达 0.17</p></td>
+</tr>
+</tbody>
+</table>
+<div class="versionadded">
+<p><span class="versionmodified added">1.0 新版功能: </span>增加了对 Sphinx 4.0 的支持</p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified deprecated">1.0 版后已移除: </span>移除对 Sphinx 1.6 的支持</p>
+</div>
+<div class="versionadded">
+<p><span class="versionmodified added">1.0 新版功能: </span>增加了对 docutils 0.17 的支持</p>
+</div>
+</section>
+<section id="roadmap">
+<h2>路线图<a class="headerlink" href="#roadmap" title="永久链接至标题"></a></h2>
+<p>我们目前在发展路线图上有几个版本的计划。每一个版本都注明了向后不兼容的变化、弃用和主要功能。</p>
+<p>版本遵循 <a class="reference external" href="http://semver.org/">语义化版本</a>，因此一般建议作者将对 <code class="docutils literal notranslate"><span class="pre">sphinx_rtd_theme</span></code> 的依赖性固定在低于下一个主版本的版本：</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>pip install <span class="s2">&quot;sphinx_rtd_theme&lt;=2.0.0&quot;</span>
+</pre></div>
+</div>
+<section id="release-1-0-0">
+<span id="id3"></span><h3>1.0.0<a class="headerlink" href="#release-1-0-0" title="永久链接至标题"></a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">计划的发布日期</dt>
+<dd class="field-odd"><p>2021 年 8 月</p>
+</dd>
+</dl>
+<p>这个版本将是一个稍微向后不兼容的版本，紧随 <span class="xref std std-ref">0.5.2</span> 版本。它将放弃对 Sphinx 1.6 的支持，这在目前是一个相当老的版本。</p>
+<p>这个版本将增加对 Sphinx 4.x 版本系列的正式支持，它解决了 Docutils 最新版本 0.17 版本的错误。</p>
+<p>从这个版本开始，在构建时将会发出几个废弃警告：</p>
+<dl>
+<dt>直接安装已被废弃</dt><dd><p>支持通过 GitHub 直接安装，不再是建议的安装方法。为了便于维护，编译的 assets 最终将从主题库中删除。这些文件将只包括在 PyPI 上提供的内置包/版本中。</p>
+<p>我们计划开始在 PyPI 上更频繁地发布开发版本，这样就不再需要从主题源码库中安装。</p>
+<p>已建 assets 暂计划在版本 <span class="xref std std-ref">3.0.0</span> 中删除：</p>
+</dd>
+<dt>对 HTML4 的支持已被弃用</dt><dd><p>对 Sphinx HTML4 写入器的支持将在 <span class="xref std std-ref">2.0.0</span> 版本中删除。</p>
+</dd>
+</dl>
+</section>
+<section id="release-1-1-0">
+<span id="id4"></span><h3>1.1.0<a class="headerlink" href="#release-1-1-0" title="永久链接至标题"></a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">计划的发布日期</dt>
+<dd class="field-odd"><p>2021 Q3</p>
+</dd>
+</dl>
+<p>我们的目标是在 1.x 版本系列中至少有一个错误修复版本来跟进 <span class="xref std std-ref">1.0.0</span>。1.1 版本将不会增加任何主要功能，而是标志着最后一个针对有旧的依赖性的项目的版本，如 Sphinx 1.8、HTML4 或对 IE11 的必要支持。</p>
+</section>
+<section id="release-2-0-0">
+<span id="id5"></span><h3>2.0.0<a class="headerlink" href="#release-2-0-0" title="永久链接至标题"></a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">计划的发布日期</dt>
+<dd class="field-odd"><p>2022 Q1</p>
+</dd>
+</dl>
+<p>这个版本将标志着新一轮功能开发的开始，以及一些向后不兼容的变化和弃用。</p>
+<p>值得注意的是，这个版本计划进行以下向后不兼容的修改：</p>
+<dl>
+<dt>Sphinx 1.x, Sphinx 2.x, 和 Docutils 0.16 将不被测试。</dt><dd><p>官方将放弃对这些版本的支持，尽管它们可能仍在继续工作。主题开发者将不再测试这些版本。</p>
+</dd>
+<dt>将取消对 HTML4 的支持</dt><dd><p>从这个版本开始，我们将只支持 HTML5 写入器的输出，试图使用 HTML4 写入器的构建将失败。如果你还在使用 HTML4 编写器，或者在你的 Sphinx 配置文件中有 <code class="docutils literal notranslate"><span class="pre">html4_writer</span> <span class="pre">=</span> <span class="pre">True</span></code> 选项，你需要删除这个选项，或者将你的依赖关系固定在 <code class="docutils literal notranslate"><span class="pre">sphinx_rtd_theme&lt;=2.0.0</span></code>，直到你可以为止。</p>
+<p>这个选项在过去被建议用来解决 HTML5 支持的问题，不应该再这个主题和 Sphinx 的现代组合所需要。</p>
+</dd>
+</dl>
+</section>
+<section id="release-3-0-0">
+<span id="id6"></span><h3>3.0.0<a class="headerlink" href="#release-3-0-0" title="永久链接至标题"></a></h3>
+<p>这个版本还没有计划，然而有计划在 2.0 之后的版本中可能用 Bootstrap 取代 Wyrm。</p>
+<p>这个版本还暂时计划从我们的资源库中删除内置的 CSS 和 JavaScript assets。这将取消直接从 GitHub 安装软件包的能力，而建议用户从 PyPI 安装开发版本</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="configuring.html" class="btn btn-neutral float-left" title="配置" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="contributing.html" class="btn btn-neutral float-right" title="贡献" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 Dave Snider, Read the Docs, Inc. &amp; contributors.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+    <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="版本">
+      <span class="rst-current-version" data-toggle="rst-current-version">
+        <span class="fa fa-book"> Read the Docs</span>
+        v: latest
+        <span class="fa fa-caret-down"></span>
+      </span>
+      <div class="rst-other-versions">
+        <dl>
+          <dt>版本</dt>
+            <dd><a href="#">0.1</a></dd>
+            <dd><a href="#">0.2</a></dd>
+            <dd><a href="#">0.3</a></dd>
+            <dd><a href="#">0.4</a></dd>
+            <dd><a href="#">0.5</a></dd>
+            <dd><a href="#">0.6</a></dd>
+            <dd><a href="#">0.7</a></dd>
+            <dd><a href="#">0.8</a></dd>
+            <dd><a href="#">0.9</a></dd>
+            <dd><a href="#">1.0</a></dd>
+            <dd><a href="#">1.1</a></dd>
+            <dd><a href="#">1.2</a></dd>
+            <dd><a href="#">1.3</a></dd>
+            <dd><a href="#">1.4</a></dd>
+            <dd><a href="#">1.5</a></dd>
+            <dd><a href="#">1.6</a></dd>
+            <dd><a href="#">1.7</a></dd>
+            <dd><a href="#">1.8</a></dd>
+            <dd><a href="#">1.9</a></dd>
+            <dd><a href="#">2.0</a></dd>
+            <dd><a href="#">2.1</a></dd>
+            <dd><a href="#">2.2</a></dd>
+            <dd><a href="#">2.3</a></dd>
+            <dd><a href="#">2.4</a></dd>
+            <dd><a href="#">2.5</a></dd>
+            <dd><a href="#">2.6</a></dd>
+            <dd><a href="#">2.7</a></dd>
+            <dd><a href="#">2.8</a></dd>
+            <dd><a href="#">2.9</a></dd>
+            <dd><a href="#">3.0</a></dd>
+            <dd><a href="#">3.1</a></dd>
+            <dd><a href="#">3.2</a></dd>
+            <dd><a href="#">3.3</a></dd>
+            <dd><a href="#">3.4</a></dd>
+            <dd><a href="#">3.5</a></dd>
+            <dd><a href="#">3.6</a></dd>
+            <dd><a href="#">3.7</a></dd>
+            <dd><a href="#">3.8</a></dd>
+            <dd><a href="#">3.9</a></dd>
+            <dd><a href="#">4.0</a></dd>
+            <dd><a href="#">4.1</a></dd>
+            <dd><a href="#">4.2</a></dd>
+            <dd><a href="#">4.3</a></dd>
+            <dd><a href="#">4.4</a></dd>
+            <dd><a href="#">4.5</a></dd>
+            <dd><a href="#">4.6</a></dd>
+            <dd><a href="#">4.7</a></dd>
+            <dd><a href="#">4.8</a></dd>
+            <dd><a href="#">4.9</a></dd>
+            <dd><a href="#">5.0</a></dd>
+            <dd><a href="#">5.1</a></dd>
+            <dd><a href="#">5.2</a></dd>
+            <dd><a href="#">5.3</a></dd>
+            <dd><a href="#">5.4</a></dd>
+            <dd><a href="#">5.5</a></dd>
+            <dd><a href="#">5.6</a></dd>
+            <dd><a href="#">5.7</a></dd>
+            <dd><a href="#">5.8</a></dd>
+            <dd><a href="#">5.9</a></dd>
+            <dd><a href="#">6.0</a></dd>
+            <dd><a href="#">6.1</a></dd>
+            <dd><a href="#">6.2</a></dd>
+            <dd><a href="#">6.3</a></dd>
+            <dd><a href="#">6.4</a></dd>
+            <dd><a href="#">6.5</a></dd>
+            <dd><a href="#">6.6</a></dd>
+            <dd><a href="#">6.7</a></dd>
+            <dd><a href="#">6.8</a></dd>
+            <dd><a href="#">6.9</a></dd>
+            <dd><a href="#">7.0</a></dd>
+            <dd><a href="#">7.1</a></dd>
+            <dd><a href="#">7.2</a></dd>
+            <dd><a href="#">7.3</a></dd>
+            <dd><a href="#">7.4</a></dd>
+            <dd><a href="#">7.5</a></dd>
+            <dd><a href="#">7.6</a></dd>
+            <dd><a href="#">7.7</a></dd>
+            <dd><a href="#">7.8</a></dd>
+            <dd><a href="#">7.9</a></dd>
+            <dd><a href="#">8.0</a></dd>
+            <dd><a href="#">8.1</a></dd>
+            <dd><a href="#">8.2</a></dd>
+            <dd><a href="#">8.3</a></dd>
+            <dd><a href="#">8.4</a></dd>
+            <dd><a href="#">8.5</a></dd>
+            <dd><a href="#">8.6</a></dd>
+            <dd><a href="#">8.7</a></dd>
+            <dd><a href="#">8.8</a></dd>
+            <dd><a href="#">8.9</a></dd>
+            <dd><a href="#">9.0</a></dd>
+            <dd><a href="#">9.1</a></dd>
+            <dd><a href="#">9.2</a></dd>
+            <dd><a href="#">9.3</a></dd>
+            <dd><a href="#">9.4</a></dd>
+            <dd><a href="#">9.5</a></dd>
+            <dd><a href="#">9.6</a></dd>
+            <dd><a href="#">9.7</a></dd>
+            <dd><a href="#">9.8</a></dd>
+            <dd><a href="#">9.9</a></dd>
+        </dl>
+        <dl>
+          <dt>下载</dt>
+          <dd><a href="#">PDF</a></dd>
+          <dd><a href="#">ePub</a></dd>
+          <dd><a href="#">HTML</a></dd>
+        </dl>
+        <dl>
+          <dt>在 Read the Docs 上</dt>
+            <dd>
+              <a href="#">项目主页</a>
+            </dd>
+            <dd>
+              <a href="#">构建</a>
+            </dd>
+        </dl>
+        <dl>
+          <dt>Debug</dt>
+          <dd><a href="#" data-toggle="rst-debug-badge">Swap badge position</a></dd>
+        </dl>
+      </div>
+    </div>
+
+</body>
+</html>

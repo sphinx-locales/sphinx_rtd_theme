@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>配置 &mdash; Read the Docs Sphinx Theme 1.0.1alpha1 文档</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+        <script src="_static/debug.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="开发" href="development.html" />
+    <link rel="prev" title="安装" href="installing.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html">
+            <img src="_static/logo-wordmark-light.svg" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                1.0.1alpha1
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">主题文档</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installing.html">安装</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">配置</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#theme-options">主题选项</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#table-of-contents-options">目录的选项</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#miscellaneous-options">其他选项</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#file-wide-metadata">文件范围的元数据</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#other-configuration">其他配置</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#adding-a-logo">添加 logo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#adding-custom-css-or-javascript">添加自定义 CSS 或 JavaScript</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#how-the-table-of-contents-displays">目录的显示方式</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="development.html">开发</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">贡献</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">更新日志</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">演示文档</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="demo/structure.html">1. 结构性元素</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo/structure.html#structural-elements-2">2. 结构性元素 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo/demo.html">3. Paragraph Level Markup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo/lists_tables.html">4. 列表和表格</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo/api.html">5. API文档和生成的内容</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">这是一个长菜单的难以置信的长标题</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="demo/long.html">1. 长贴式导航</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Read the Docs Sphinx Theme</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>配置</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/configuring.rst.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="configuration">
+<h1>配置<a class="headerlink" href="#configuration" title="永久链接至标题"></a></h1>
+<section id="theme-options">
+<h2>主题选项<a class="headerlink" href="#theme-options" title="永久链接至标题"></a></h2>
+<p>以下选项可以在你项目的 <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> 文件中定义，使用 <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_theme_options" title="(在 Sphinx v5.0.0+)"><code class="xref std std-confval docutils literal notranslate"><span class="pre">html_theme_options</span></code></a> 配置选项。</p>
+<p>例如：</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_theme_options</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;analytics_id&#39;</span><span class="p">:</span> <span class="s1">&#39;G-XXXXXXXXXX&#39;</span><span class="p">,</span>  <span class="c1">#  Provided by Google in your dashboard</span>
+    <span class="s1">&#39;analytics_anonymize_ip&#39;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="s1">&#39;logo_only&#39;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="s1">&#39;display_version&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s1">&#39;prev_next_buttons_location&#39;</span><span class="p">:</span> <span class="s1">&#39;bottom&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;style_external_links&#39;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="s1">&#39;vcs_pageview_mode&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;style_nav_header_background&#39;</span><span class="p">:</span> <span class="s1">&#39;white&#39;</span><span class="p">,</span>
+    <span class="c1"># Toc options</span>
+    <span class="s1">&#39;collapse_navigation&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s1">&#39;sticky_navigation&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s1">&#39;navigation_depth&#39;</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+    <span class="s1">&#39;includehidden&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s1">&#39;titles_only&#39;</span><span class="p">:</span> <span class="kc">False</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<section id="table-of-contents-options">
+<h3>目录的选项<a class="headerlink" href="#table-of-contents-options" title="永久链接至标题"></a></h3>
+<p>以下选项改变了 <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-toctree" title="(在 Sphinx v5.0.0+)"><code class="docutils literal notranslate"><span class="pre">toctree</span></code></a> 指令生成文档导航的方式。</p>
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-collapse_navigation">
+<span class="sig-name descname"><span class="pre">collapse_navigation</span></span><a class="headerlink" href="#confval-collapse_navigation" title="永久链接至目标"></a></dt>
+<dd><p>启用该功能后，导航条目无法扩展 – 每个条目旁边的 <code class="docutils literal notranslate"><span class="pre">[+]</span></code> 图标被移除。</p>
+<dl class="field-list simple">
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>boolean</p>
+</dd>
+<dt class="field-even">默认</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">True</span></code></p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">注解</p>
+<p>将 <a class="reference internal" href="#confval-collapse_navigation"><code class="xref std std-confval docutils literal notranslate"><span class="pre">collapse_navigation</span></code></a> 设置为 <code class="docutils literal notranslate"><span class="pre">False</span></code>，并在有许多文件和深层文件结构的项目中使用 <a class="reference internal" href="#confval-navigation_depth"><code class="xref std std-confval docutils literal notranslate"><span class="pre">navigation_depth</span></code></a> 的高数值，会导致编译时间过长，并可能导致 HTML 文件的文件大小明显增大。</p>
+</div>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-sticky_navigation">
+<span class="sig-name descname"><span class="pre">sticky_navigation</span></span><a class="headerlink" href="#confval-sticky_navigation" title="永久链接至目标"></a></dt>
+<dd><p>当你滚动页面时，导航与主页面内容一起滚动。</p>
+<dl class="field-list simple">
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>boolean</p>
+</dd>
+<dt class="field-even">默认</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">True</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-navigation_depth">
+<span class="sig-name descname"><span class="pre">navigation_depth</span></span><a class="headerlink" href="#confval-navigation_depth" title="永久链接至目标"></a></dt>
+<dd><p>目录树的最大深度。将此设置为 <code class="docutils literal notranslate"><span class="pre">-1</span></code>，以允许无限的深度。</p>
+<dl class="field-list simple">
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>integer</p>
+</dd>
+<dt class="field-even">默认</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">4</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-includehidden">
+<span class="sig-name descname"><span class="pre">includehidden</span></span><a class="headerlink" href="#confval-includehidden" title="永久链接至目标"></a></dt>
+<dd><p>指定导航是否包括隐藏的内容目录–即任何被标记为 <code class="docutils literal notranslate"><span class="pre">:hidden:</span></code> 选项的 <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-toctree" title="(在 Sphinx v5.0.0+)"><code class="docutils literal notranslate"><span class="pre">toctree</span></code></a> 指令。</p>
+<dl class="field-list simple">
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>boolean</p>
+</dd>
+<dt class="field-even">默认</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">True</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-titles_only">
+<span class="sig-name descname"><span class="pre">titles_only</span></span><a class="headerlink" href="#confval-titles_only" title="永久链接至目标"></a></dt>
+<dd><p>启用后，页面小标题不包括在导航中。</p>
+<dl class="field-list simple">
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>boolean</p>
+</dd>
+<dt class="field-even">默认</dt>
+<dd class="field-even"><p>False</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="miscellaneous-options">
+<h3>其他选项<a class="headerlink" href="#miscellaneous-options" title="永久链接至标题"></a></h3>
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-analytics_id">
+<span class="sig-name descname"><span class="pre">analytics_id</span></span><a class="headerlink" href="#confval-analytics_id" title="永久链接至目标"></a></dt>
+<dd><p>如果指定，Google Analytics 的 <a class="reference external" href="https://developers.google.com/gtagjs">gtag.js</a> 就会包含在你的页面中。将该值设置为谷歌提供给你的 ID（如 <code class="docutils literal notranslate"><span class="pre">UA-XXXXXXX</span></code> 或 <code class="docutils literal notranslate"><span class="pre">G-XXXXXXXXXX</span></code>）。</p>
+<dl class="field-list simple">
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>string</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-analytics_anonymize_ip">
+<span class="sig-name descname"><span class="pre">analytics_anonymize_ip</span></span><a class="headerlink" href="#confval-analytics_anonymize_ip" title="永久链接至目标"></a></dt>
+<dd><blockquote>
+<div><p>在谷歌分析中对访问者的 IP 地址进行匿名处理。</p>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>boolean</p>
+</dd>
+<dt class="field-even">默认</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">False</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-canonical_url">
+<span class="sig-name descname"><span class="pre">canonical_url</span></span><a class="headerlink" href="#confval-canonical_url" title="永久链接至目标"></a></dt>
+<dd><p>这将指定一个 <a class="reference external" href="https://en.wikipedia.org/wiki/Canonical_link_element">规范的 URL</a> 元链接元素，告诉搜索引擎哪个 URL 应该被列为你的文档的主要 URL。如果你有多个 URL，而你的文档是通过这些 URL 提供的，这就很重要。该 URL 指向文档的根路径，需要一个尾部斜线。</p>
+<dl class="field-list simple">
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>URL</p>
+</dd>
+</dl>
+<div class="deprecated">
+<p><span class="versionmodified deprecated">0.6.0 版后已移除: </span>使用 <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_baseurl" title="(在 Sphinx v5.0.0+)"><code class="docutils literal notranslate"><span class="pre">html_baseurl</span></code></a> 代替。</p>
+</div>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-display_version">
+<span class="sig-name descname"><span class="pre">display_version</span></span><a class="headerlink" href="#confval-display_version" title="永久链接至目标"></a></dt>
+<dd><p>如果 <code class="docutils literal notranslate"><span class="pre">True</span></code>，版本号将显示在侧边栏的顶部。</p>
+<dl class="field-list simple">
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>boolean</p>
+</dd>
+<dt class="field-even">默认</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">True</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-logo_only">
+<span class="sig-name descname"><span class="pre">logo_only</span></span><a class="headerlink" href="#confval-logo_only" title="永久链接至目标"></a></dt>
+<dd><p>只显示 logo 图片，不在侧边栏的顶部显示项目名称</p>
+<dl class="field-list simple">
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>boolean</p>
+</dd>
+<dt class="field-even">默认</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">False</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-prev_next_buttons_location">
+<span class="sig-name descname"><span class="pre">prev_next_buttons_location</span></span><a class="headerlink" href="#confval-prev_next_buttons_location" title="永久链接至目标"></a></dt>
+<dd><p>显示 <span class="guilabel">Next</span> 和 <span class="guilabel">Previous</span> 按钮的位置。这可以是 <code class="docutils literal notranslate"><span class="pre">bottom</span></code>，<code class="docutils literal notranslate"><span class="pre">top</span></code>，<code class="docutils literal notranslate"><span class="pre">both</span></code>，或 <code class="docutils literal notranslate"><span class="pre">None</span></code>。</p>
+<dl class="field-list simple">
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>string</p>
+</dd>
+<dt class="field-even">默认</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">bottom</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-style_external_links">
+<span class="sig-name descname"><span class="pre">style_external_links</span></span><a class="headerlink" href="#confval-style_external_links" title="永久链接至目标"></a></dt>
+<dd><p>在外部链接旁边添加一个图标。</p>
+<dl class="field-list simple">
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>boolean</p>
+</dd>
+<dt class="field-even">默认</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">False</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-vcs_pageview_mode">
+<span class="sig-name descname"><span class="pre">vcs_pageview_mode</span></span><a class="headerlink" href="#confval-vcs_pageview_mode" title="永久链接至目标"></a></dt>
+<dd><p>改变了使用 <code class="docutils literal notranslate"><span class="pre">display_github</span></code>, <code class="docutils literal notranslate"><span class="pre">display_gitlab</span></code> 等文件时的查看方式。当使用 GitHub 或 GitLab 时，这可以是：<code class="docutils literal notranslate"><span class="pre">blob</span></code> （默认），<code class="docutils literal notranslate"><span class="pre">edit</span></code> 或 <code class="docutils literal notranslate"><span class="pre">raw</span></code>。在 Bitbucket 上，这可以是 <code class="docutils literal notranslate"><span class="pre">view</span></code> （默认）或 <code class="docutils literal notranslate"><span class="pre">edit</span></code>。</p>
+<dl class="field-list simple">
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>string</p>
+</dd>
+<dt class="field-even">默认</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">blob</span></code> 或者 <code class="docutils literal notranslate"><span class="pre">view</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-style_nav_header_background">
+<span class="sig-name descname"><span class="pre">style_nav_header_background</span></span><a class="headerlink" href="#confval-style_nav_header_background" title="永久链接至目标"></a></dt>
+<dd><p>改变导航栏中搜索区域的背景。该值可以是任何在 CSS <cite>background</cite> 属性中有效的东西。</p>
+<dl class="field-list simple">
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>string</p>
+</dd>
+<dt class="field-even">默认</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">#2980B9</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+</section>
+<section id="file-wide-metadata">
+<h2>文件范围的元数据<a class="headerlink" href="#file-wide-metadata" title="永久链接至标题"></a></h2>
+<p>以下选项可作为 <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/field-lists.html#metadata" title="(在 Sphinx v5.0.0+)"><span class="xref std std-ref">文件范围的元数据</span></a> 使用：</p>
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-github_url">
+<span class="sig-name descname"><span class="pre">github_url</span></span><a class="headerlink" href="#confval-github_url" title="永久链接至目标"></a></dt>
+<dd><p>强制 <span class="guilabel">Edit on GitHub</span> 按钮使用配置的 URL。</p>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-bitbucket_url">
+<span class="sig-name descname"><span class="pre">bitbucket_url</span></span><a class="headerlink" href="#confval-bitbucket_url" title="永久链接至目标"></a></dt>
+<dd><p>强制 <span class="guilabel">Edit on Bitbucket</span> 按钮使用配置的 URL。</p>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-gitlab_url">
+<span class="sig-name descname"><span class="pre">gitlab_url</span></span><a class="headerlink" href="#confval-gitlab_url" title="永久链接至目标"></a></dt>
+<dd><p>强制 <span class="guilabel">Edit on GitLab</span> 按钮使用配置的 URL。</p>
+</dd></dl>
+
+</section>
+<section id="other-configuration">
+<h2>其他配置<a class="headerlink" href="#other-configuration" title="永久链接至标题"></a></h2>
+<section id="adding-a-logo">
+<h3>添加 logo<a class="headerlink" href="#adding-a-logo" title="永久链接至标题"></a></h3>
+<p>使用 Sphinx 标准选项 <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_logo" title="(在 Sphinx v5.0.0+)"><code class="xref std std-confval docutils literal notranslate"><span class="pre">html_logo</span></code></a>，你可以设置一个图片文件作为侧边栏顶部的 logo 使用。主题选项 <a class="reference internal" href="#confval-logo_only"><code class="xref std std-confval docutils literal notranslate"><span class="pre">logo_only</span></code></a> 也允许在边栏顶部只显示标志。</p>
+</section>
+<section id="adding-custom-css-or-javascript">
+<h3>添加自定义 CSS 或 JavaScript<a class="headerlink" href="#adding-custom-css-or-javascript" title="永久链接至标题"></a></h3>
+<p>添加自定义 CSS 或 JavaScript 可以帮助你改变这个主题的外观和感受，而不需要 fork 主题供本地使用。</p>
+<p>为了在不破坏现有主题文件的情况下添加自定义 CSS 或 JavaScript，你可以 <a class="reference external" href="https://docs.readthedocs.io/en/stable/guides/adding-custom-css.html" title="(在 Read the Docs v6.1.1)"><span class="xref std std-doc">添加文件以包含在你的文档输出中</span></a>。</p>
+</section>
+</section>
+<section id="how-the-table-of-contents-displays">
+<h2>目录的显示方式<a class="headerlink" href="#how-the-table-of-contents-displays" title="永久链接至标题"></a></h2>
+<p>目前，左边的菜单将根据你的源文件中定义的任何 <code class="docutils literal notranslate"><span class="pre">toctree</span></code> 指令来构建。它默认输出 4 级深度，以允许快速浏览主题。如果没有定义 TOC 树，Sphinx 的默认行为是使用页面标题来代替。</p>
+<p>需要注意的是，如果你在整个文档中不遵循相同的 reST 标题风格，那么 TOC 树的构建就会不正确，所产生的菜单在渲染时可能不会显示正确的深度。</p>
+<p>还要注意，默认情况下，目录是用 <code class="docutils literal notranslate"><span class="pre">includehidden=True</span></code> 设置的。这允许你在索引文件中用 <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#toctree-directive" title="(在 Sphinx v5.0.0+)"><span class="xref std std-ref">:hidden:</span></a> 属性设置一个隐藏的 TOC，这将允许你建立一个 TOC 而不在你的索引中呈现。</p>
+<p>在默认情况下，当你滚动时，导航将粘到屏幕上。然而，如果你的 TOC 不够高，它将恢复为静态定位。要完全禁用粘性导航，请改变 <a class="reference internal" href="#confval-sticky_navigation"><code class="xref std std-confval docutils literal notranslate"><span class="pre">sticky_navigation</span></code></a> 主题选项。</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="installing.html" class="btn btn-neutral float-left" title="安装" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="development.html" class="btn btn-neutral float-right" title="开发" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 Dave Snider, Read the Docs, Inc. &amp; contributors.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+    <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="版本">
+      <span class="rst-current-version" data-toggle="rst-current-version">
+        <span class="fa fa-book"> Read the Docs</span>
+        v: latest
+        <span class="fa fa-caret-down"></span>
+      </span>
+      <div class="rst-other-versions">
+        <dl>
+          <dt>版本</dt>
+            <dd><a href="#">0.1</a></dd>
+            <dd><a href="#">0.2</a></dd>
+            <dd><a href="#">0.3</a></dd>
+            <dd><a href="#">0.4</a></dd>
+            <dd><a href="#">0.5</a></dd>
+            <dd><a href="#">0.6</a></dd>
+            <dd><a href="#">0.7</a></dd>
+            <dd><a href="#">0.8</a></dd>
+            <dd><a href="#">0.9</a></dd>
+            <dd><a href="#">1.0</a></dd>
+            <dd><a href="#">1.1</a></dd>
+            <dd><a href="#">1.2</a></dd>
+            <dd><a href="#">1.3</a></dd>
+            <dd><a href="#">1.4</a></dd>
+            <dd><a href="#">1.5</a></dd>
+            <dd><a href="#">1.6</a></dd>
+            <dd><a href="#">1.7</a></dd>
+            <dd><a href="#">1.8</a></dd>
+            <dd><a href="#">1.9</a></dd>
+            <dd><a href="#">2.0</a></dd>
+            <dd><a href="#">2.1</a></dd>
+            <dd><a href="#">2.2</a></dd>
+            <dd><a href="#">2.3</a></dd>
+            <dd><a href="#">2.4</a></dd>
+            <dd><a href="#">2.5</a></dd>
+            <dd><a href="#">2.6</a></dd>
+            <dd><a href="#">2.7</a></dd>
+            <dd><a href="#">2.8</a></dd>
+            <dd><a href="#">2.9</a></dd>
+            <dd><a href="#">3.0</a></dd>
+            <dd><a href="#">3.1</a></dd>
+            <dd><a href="#">3.2</a></dd>
+            <dd><a href="#">3.3</a></dd>
+            <dd><a href="#">3.4</a></dd>
+            <dd><a href="#">3.5</a></dd>
+            <dd><a href="#">3.6</a></dd>
+            <dd><a href="#">3.7</a></dd>
+            <dd><a href="#">3.8</a></dd>
+            <dd><a href="#">3.9</a></dd>
+            <dd><a href="#">4.0</a></dd>
+            <dd><a href="#">4.1</a></dd>
+            <dd><a href="#">4.2</a></dd>
+            <dd><a href="#">4.3</a></dd>
+            <dd><a href="#">4.4</a></dd>
+            <dd><a href="#">4.5</a></dd>
+            <dd><a href="#">4.6</a></dd>
+            <dd><a href="#">4.7</a></dd>
+            <dd><a href="#">4.8</a></dd>
+            <dd><a href="#">4.9</a></dd>
+            <dd><a href="#">5.0</a></dd>
+            <dd><a href="#">5.1</a></dd>
+            <dd><a href="#">5.2</a></dd>
+            <dd><a href="#">5.3</a></dd>
+            <dd><a href="#">5.4</a></dd>
+            <dd><a href="#">5.5</a></dd>
+            <dd><a href="#">5.6</a></dd>
+            <dd><a href="#">5.7</a></dd>
+            <dd><a href="#">5.8</a></dd>
+            <dd><a href="#">5.9</a></dd>
+            <dd><a href="#">6.0</a></dd>
+            <dd><a href="#">6.1</a></dd>
+            <dd><a href="#">6.2</a></dd>
+            <dd><a href="#">6.3</a></dd>
+            <dd><a href="#">6.4</a></dd>
+            <dd><a href="#">6.5</a></dd>
+            <dd><a href="#">6.6</a></dd>
+            <dd><a href="#">6.7</a></dd>
+            <dd><a href="#">6.8</a></dd>
+            <dd><a href="#">6.9</a></dd>
+            <dd><a href="#">7.0</a></dd>
+            <dd><a href="#">7.1</a></dd>
+            <dd><a href="#">7.2</a></dd>
+            <dd><a href="#">7.3</a></dd>
+            <dd><a href="#">7.4</a></dd>
+            <dd><a href="#">7.5</a></dd>
+            <dd><a href="#">7.6</a></dd>
+            <dd><a href="#">7.7</a></dd>
+            <dd><a href="#">7.8</a></dd>
+            <dd><a href="#">7.9</a></dd>
+            <dd><a href="#">8.0</a></dd>
+            <dd><a href="#">8.1</a></dd>
+            <dd><a href="#">8.2</a></dd>
+            <dd><a href="#">8.3</a></dd>
+            <dd><a href="#">8.4</a></dd>
+            <dd><a href="#">8.5</a></dd>
+            <dd><a href="#">8.6</a></dd>
+            <dd><a href="#">8.7</a></dd>
+            <dd><a href="#">8.8</a></dd>
+            <dd><a href="#">8.9</a></dd>
+            <dd><a href="#">9.0</a></dd>
+            <dd><a href="#">9.1</a></dd>
+            <dd><a href="#">9.2</a></dd>
+            <dd><a href="#">9.3</a></dd>
+            <dd><a href="#">9.4</a></dd>
+            <dd><a href="#">9.5</a></dd>
+            <dd><a href="#">9.6</a></dd>
+            <dd><a href="#">9.7</a></dd>
+            <dd><a href="#">9.8</a></dd>
+            <dd><a href="#">9.9</a></dd>
+        </dl>
+        <dl>
+          <dt>下载</dt>
+          <dd><a href="#">PDF</a></dd>
+          <dd><a href="#">ePub</a></dd>
+          <dd><a href="#">HTML</a></dd>
+        </dl>
+        <dl>
+          <dt>在 Read the Docs 上</dt>
+            <dd>
+              <a href="#">项目主页</a>
+            </dd>
+            <dd>
+              <a href="#">构建</a>
+            </dd>
+        </dl>
+        <dl>
+          <dt>Debug</dt>
+          <dd><a href="#" data-toggle="rst-debug-badge">Swap badge position</a></dd>
+        </dl>
+      </div>
+    </div>
+
+</body>
+</html>

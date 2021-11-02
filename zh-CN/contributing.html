@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>贡献 &mdash; Read the Docs Sphinx Theme 1.0.1alpha1 文档</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+        <script src="_static/debug.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="更新日志" href="changelog.html" />
+    <link rel="prev" title="开发" href="development.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html">
+            <img src="_static/logo-wordmark-light.svg" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                1.0.1alpha1
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">主题文档</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installing.html">安装</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuring.html">配置</a></li>
+<li class="toctree-l1"><a class="reference internal" href="development.html">开发</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">贡献</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#modifying-the-theme">修改主题</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#set-up-your-environment">设置你的环境</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#making-changes">进行修改</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#testing">测试</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#translations">翻译</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#releasing-the-theme">发布主题</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">更新日志</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">演示文档</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="demo/structure.html">1. 结构性元素</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo/structure.html#structural-elements-2">2. 结构性元素 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo/demo.html">3. Paragraph Level Markup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo/lists_tables.html">4. 列表和表格</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo/api.html">5. API文档和生成的内容</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">这是一个长菜单的难以置信的长标题</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="demo/long.html">1. 长贴式导航</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Read the Docs Sphinx Theme</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>贡献</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/contributing.rst.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="contributing">
+<h1>贡献<a class="headerlink" href="#contributing" title="永久链接至标题"></a></h1>
+<p>本项目遵循 Read the Docs <a class="reference external" href="https://docs.readthedocs.io/en/stable/code-of-conduct.html" title="(在 Read the Docs v6.1.1)"><span class="xref std std-doc">行为规范</span></a>。如果你不熟悉我们的行为准则政策，请在开始你的第一次贡献之前花一分钟时间阅读该政策。</p>
+<section id="modifying-the-theme">
+<h2>修改主题<a class="headerlink" href="#modifying-the-theme" title="永久链接至标题"></a></h2>
+<p>这个主题的样式使用 <a class="reference external" href="http://www.sass-lang.com">SASS</a> 和一个名为 <a class="reference external" href="http://www.github.com/snide/wyrm/">Wyrm</a> 的自定义 CSS 框架。我们使用 <a class="reference external" href="https://webpack.js.org/">Webpack</a> 和 <a class="reference external" href="https://github.com/sass/node-sass">node-sass</a> 来构建 CSS。<a class="reference external" href="https://webpack.js.org/">Webpack</a> 被用来观察变化，重建静态 assets，以及重建 Sphinx 演示文档。</p>
+<div class="admonition note">
+<p class="admonition-title">注解</p>
+<p>Node 的安装超出了本文档的范围。你需要 Node 版本 10 以上，才能对这个主题进行修改。</p>
+</div>
+<section id="set-up-your-environment">
+<h3>设置你的环境<a class="headerlink" href="#set-up-your-environment" title="永久链接至标题"></a></h3>
+<ol class="arabic">
+<li><p>安装 <a class="reference external" href="http://www.sphinx-doc.org/en/stable/">Sphinx</a> 和文档构建依赖。</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>pip install -e <span class="s1">&#39;.[dev]&#39;</span>
+</pre></div>
+</div>
+</li>
+<li><p>在本地安装 <a class="reference external" href="https://webpack.js.org/">Webpack</a>、<a class="reference external" href="https://github.com/sass/node-sass">node-sass</a> 和主题依赖项。</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>npm install
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="making-changes">
+<h3>进行修改<a class="headerlink" href="#making-changes" title="永久链接至标题"></a></h3>
+<p>对主题的修改可以用 <a class="reference external" href="https://webpack.js.org/">Webpack</a> 进行编译和测试：</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>npm run dev
+</pre></div>
+</div>
+<p>这个脚本将做以下工作：</p>
+<ol class="arabic simple">
+<li><p>安装和更新任何依赖关系。</p></li>
+<li><p>从 SASS 源文件建立静态 CSS。</p></li>
+<li><p>建立演示文档。</p></li>
+<li><p>注意 SASS 文件和文档的变更，在检测到的任何变更上重建一切。</p></li>
+</ol>
+<p>另外，如果你不需要观察文件，可以使用发布构建脚本来测试构建的 assets：</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>npm run build
+</pre></div>
+</div>
+</section>
+</section>
+<section id="testing">
+<h2>测试<a class="headerlink" href="#testing" title="永久链接至标题"></a></h2>
+<p>由于向后兼容，QA 测试主题变更和拉动请求很复杂。</p>
+<p>以下情况需要在改变 CSS 或 JavaScript 的情况下进行测试。</p>
+<ul class="simple">
+<li><p>应测试多种现代浏览器。我们目前正式支持回溯到 IE11</p></li>
+<li><p>应测试多种视口尺寸的变化。我们支持大尺寸、平板电脑和移动视口尺寸</p></li>
+<li><p>我们目前同时支持 Sphinx HTML4 和 HTML5 编写。这使得一些复杂的 CSS 选择器</p></li>
+<li><p>多个主要版本的 Sphinx 应该被测试。我们目前支持回溯到 Sphinx 版本 <code class="docutils literal notranslate"><span class="pre">1.6</span></code></p></li>
+</ul>
+<p>使用 <code class="docutils literal notranslate"><span class="pre">tox</span></code> 来测试依赖版本的组合是最简单的：</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">% </span>tox -e py3-sphinx34-html4
+</pre></div>
+</div>
+<p>如果测试和构建成功，你可以在 Sphinx 指出的目录中查看构建的文档：</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">build succeeded, 10 warnings.</span>
+
+<span class="go">The HTML pages are in .tox/py3-sphinx34-html4/tmp/html.</span>
+<span class="go">___________________________ summary ___________________________</span>
+<span class="go">  py3-sphinx34-html4: commands succeeded</span>
+<span class="go">  congratulations :)</span>
+</pre></div>
+</div>
+<p>然后你可以用一系列的浏览器打开这个路径进行测试。</p>
+<p>发现用户界面问题的最好方法是比较两个或更多的构建。你可以建立多个 <code class="docutils literal notranslate"><span class="pre">tox</span></code> 环境，并将两者打开进行比较：</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">% </span>tox -e py3-sphinx34-html4
+<span class="go">...</span>
+<span class="gp">% </span>tox -e py3-sphinx34-html5
+<span class="go">...</span>
+<span class="gp">% </span>firefox .tox/py3-sphinx34-html4/tmp/html/index.html
+<span class="gp">% </span>firefox .tox/py3-sphinx34-html5/tmp/html/index.html
+</pre></div>
+</div>
+<p>你也可以使用一个单独的 <code class="docutils literal notranslate"><span class="pre">tox</span></code> 环境来建立输出来进行比较。所有的 <code class="docutils literal notranslate"><span class="pre">tox</span></code> 环境都有一个额外的后缀 <code class="docutils literal notranslate"><span class="pre">-qa</span></code>，允许在不覆盖任何文件的情况下建立同一个环境两次。在这个测试场景中，你将从一个分支或标签开始构建，然后为你正在测试的拉动请求分支构建相同的 <code class="docutils literal notranslate"><span class="pre">tox</span></code> 环境。</p>
+<p>例如，针对标签 <code class="docutils literal notranslate"><span class="pre">0.5.2</span></code> 进行测试：</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">% </span>git checkout <span class="m">0</span>.5.2
+<span class="gp">% </span>tox -e py3-sphinx34-html4-qa
+<span class="go">...</span>
+<span class="gp">% </span>git checkout feature/example-pull-request
+<span class="gp">% </span>tox -e py3-sphinx34-html4
+<span class="go">...</span>
+<span class="gp">% </span>firefox .tox/py3-sphinx34-html4-qa/tmp/html/index.html
+<span class="gp">% </span>firefox .tox/py3-sphinx34-html4/tmp/html/index.html
+</pre></div>
+</div>
+<p>目前，对 QA 最重要的环境是：</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">py3-sphinx18-html4</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">py3-sphinx18-html5</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">py3-sphinx24-html4</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">py3-sphinx24-html5</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">py3-sphinx35-html4</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">py3-sphinx35-html5</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">py3-sphinx41-html4</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">py3-sphinx41-html5</span></code></p></li>
+</ul>
+</section>
+<section id="translations">
+<h2>翻译<a class="headerlink" href="#translations" title="永久链接至标题"></a></h2>
+<p>翻译是使用 <a class="reference external" href="https://www.transifex.com/readthedocs/sphinx-rtd-theme">Transifex</a> 管理的。你可以加入任何一个现有的语言团队，或者要求在项目中加入一个新的语言。关于我们的翻译标准的更多信息，请看我们在  <a class="reference external" href="https://docs.readthedocs.io/en/stable/development/i18n.html" title="(在 Read the Docs v6.1.1)"><span>Internationalization</span></a>  的文档</p>
+<p>定期地，核心团队应该在我们的正常发布之外更新翻译文件。核心团队中的某个人，如果有对 Transifex 的写入权限，应该运行以下程序：</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>python setup.py update_translations
+</pre></div>
+</div>
+<p>这将提取新信息，将信息上传到 Transifex，并将更新我们的本地翻译文件。更改可以被检查到一个分支中，并被挂起供审查。</p>
+</section>
+<section id="releasing-the-theme">
+<h2>发布主题<a class="headerlink" href="#releasing-the-theme" title="永久链接至标题"></a></h2>
+<p>为了发布新版本的主题，核心团队将采取以下步骤：</p>
+<ol class="arabic">
+<li><p>通过运行 <code class="docutils literal notranslate"><span class="pre">bump2version</span> <span class="pre">[major|minor|patch|dev]</span></code> 来提升版本。这将自动增加版本号的正确部分，你不需要指定准确的版本号。我们遵循 <a class="reference external" href="http://semver.org/">语义化版本</a> 和 <a class="reference external" href="https://www.python.org/dev/peps/pep-0440/">PEP440</a> （关于 alpha 版本和开发版本）。版本增量应该反映这些版本和任何潜在的破坏性变化。</p></li>
+<li><p>新版本默认为 <code class="docutils literal notranslate"><span class="pre">alpha</span></code> 版本。如果这是一个候选版本，运行 <code class="docutils literal notranslate"><span class="pre">bump2version</span> <span class="pre">--allow-dirty</span> <span class="pre">release</span></code> 将该版本更新为 <code class="docutils literal notranslate"><span class="pre">rc</span></code> 版本。如果这是一个最终版本，请再次运行该命令。</p></li>
+<li><p>用版本信息更新更新日志（<code class="docutils literal notranslate"><span class="pre">docs/changelog.rst</span></code>）。</p></li>
+<li><p>运行 <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">setup.py</span> <span class="pre">update_translations</span></code> 来编译新的翻译文件并更新 Transifex。</p></li>
+<li><p>运行 <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">setup.py</span> <span class="pre">build_assets</span></code> 来重建所有的主题 assets 和 Python 包。</p></li>
+<li><p>提交变更。</p></li>
+<li><p>在 git 中给该版本打上标签：<code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">tag</span> <span class="pre">$NEW_VERSION</span></code>。</p></li>
+<li><p>推送标签到 GitHub：<code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span> <span class="pre">--tags</span> <span class="pre">origin</span></code>。</p></li>
+<li><p>将软件包上传到 PyPI：</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>rm -rf dist/
+<span class="gp">$ </span>python setup.py sdist bdist_wheel
+<span class="gp">$ </span>twine upload --sign --identity security@readthedocs.org dist/*
+</pre></div>
+</div>
+</li>
+<li><p>最后，通过运行 <code class="docutils literal notranslate"><span class="pre">bump2version</span> <span class="pre">patch</span></code> 打开一个新的拉动请求，将开发版本更新到下一个补丁。用这一变更打开一个拉动请求。</p></li>
+</ol>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="development.html" class="btn btn-neutral float-left" title="开发" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="changelog.html" class="btn btn-neutral float-right" title="更新日志" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 Dave Snider, Read the Docs, Inc. &amp; contributors.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+    <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="版本">
+      <span class="rst-current-version" data-toggle="rst-current-version">
+        <span class="fa fa-book"> Read the Docs</span>
+        v: latest
+        <span class="fa fa-caret-down"></span>
+      </span>
+      <div class="rst-other-versions">
+        <dl>
+          <dt>版本</dt>
+            <dd><a href="#">0.1</a></dd>
+            <dd><a href="#">0.2</a></dd>
+            <dd><a href="#">0.3</a></dd>
+            <dd><a href="#">0.4</a></dd>
+            <dd><a href="#">0.5</a></dd>
+            <dd><a href="#">0.6</a></dd>
+            <dd><a href="#">0.7</a></dd>
+            <dd><a href="#">0.8</a></dd>
+            <dd><a href="#">0.9</a></dd>
+            <dd><a href="#">1.0</a></dd>
+            <dd><a href="#">1.1</a></dd>
+            <dd><a href="#">1.2</a></dd>
+            <dd><a href="#">1.3</a></dd>
+            <dd><a href="#">1.4</a></dd>
+            <dd><a href="#">1.5</a></dd>
+            <dd><a href="#">1.6</a></dd>
+            <dd><a href="#">1.7</a></dd>
+            <dd><a href="#">1.8</a></dd>
+            <dd><a href="#">1.9</a></dd>
+            <dd><a href="#">2.0</a></dd>
+            <dd><a href="#">2.1</a></dd>
+            <dd><a href="#">2.2</a></dd>
+            <dd><a href="#">2.3</a></dd>
+            <dd><a href="#">2.4</a></dd>
+            <dd><a href="#">2.5</a></dd>
+            <dd><a href="#">2.6</a></dd>
+            <dd><a href="#">2.7</a></dd>
+            <dd><a href="#">2.8</a></dd>
+            <dd><a href="#">2.9</a></dd>
+            <dd><a href="#">3.0</a></dd>
+            <dd><a href="#">3.1</a></dd>
+            <dd><a href="#">3.2</a></dd>
+            <dd><a href="#">3.3</a></dd>
+            <dd><a href="#">3.4</a></dd>
+            <dd><a href="#">3.5</a></dd>
+            <dd><a href="#">3.6</a></dd>
+            <dd><a href="#">3.7</a></dd>
+            <dd><a href="#">3.8</a></dd>
+            <dd><a href="#">3.9</a></dd>
+            <dd><a href="#">4.0</a></dd>
+            <dd><a href="#">4.1</a></dd>
+            <dd><a href="#">4.2</a></dd>
+            <dd><a href="#">4.3</a></dd>
+            <dd><a href="#">4.4</a></dd>
+            <dd><a href="#">4.5</a></dd>
+            <dd><a href="#">4.6</a></dd>
+            <dd><a href="#">4.7</a></dd>
+            <dd><a href="#">4.8</a></dd>
+            <dd><a href="#">4.9</a></dd>
+            <dd><a href="#">5.0</a></dd>
+            <dd><a href="#">5.1</a></dd>
+            <dd><a href="#">5.2</a></dd>
+            <dd><a href="#">5.3</a></dd>
+            <dd><a href="#">5.4</a></dd>
+            <dd><a href="#">5.5</a></dd>
+            <dd><a href="#">5.6</a></dd>
+            <dd><a href="#">5.7</a></dd>
+            <dd><a href="#">5.8</a></dd>
+            <dd><a href="#">5.9</a></dd>
+            <dd><a href="#">6.0</a></dd>
+            <dd><a href="#">6.1</a></dd>
+            <dd><a href="#">6.2</a></dd>
+            <dd><a href="#">6.3</a></dd>
+            <dd><a href="#">6.4</a></dd>
+            <dd><a href="#">6.5</a></dd>
+            <dd><a href="#">6.6</a></dd>
+            <dd><a href="#">6.7</a></dd>
+            <dd><a href="#">6.8</a></dd>
+            <dd><a href="#">6.9</a></dd>
+            <dd><a href="#">7.0</a></dd>
+            <dd><a href="#">7.1</a></dd>
+            <dd><a href="#">7.2</a></dd>
+            <dd><a href="#">7.3</a></dd>
+            <dd><a href="#">7.4</a></dd>
+            <dd><a href="#">7.5</a></dd>
+            <dd><a href="#">7.6</a></dd>
+            <dd><a href="#">7.7</a></dd>
+            <dd><a href="#">7.8</a></dd>
+            <dd><a href="#">7.9</a></dd>
+            <dd><a href="#">8.0</a></dd>
+            <dd><a href="#">8.1</a></dd>
+            <dd><a href="#">8.2</a></dd>
+            <dd><a href="#">8.3</a></dd>
+            <dd><a href="#">8.4</a></dd>
+            <dd><a href="#">8.5</a></dd>
+            <dd><a href="#">8.6</a></dd>
+            <dd><a href="#">8.7</a></dd>
+            <dd><a href="#">8.8</a></dd>
+            <dd><a href="#">8.9</a></dd>
+            <dd><a href="#">9.0</a></dd>
+            <dd><a href="#">9.1</a></dd>
+            <dd><a href="#">9.2</a></dd>
+            <dd><a href="#">9.3</a></dd>
+            <dd><a href="#">9.4</a></dd>
+            <dd><a href="#">9.5</a></dd>
+            <dd><a href="#">9.6</a></dd>
+            <dd><a href="#">9.7</a></dd>
+            <dd><a href="#">9.8</a></dd>
+            <dd><a href="#">9.9</a></dd>
+        </dl>
+        <dl>
+          <dt>下载</dt>
+          <dd><a href="#">PDF</a></dd>
+          <dd><a href="#">ePub</a></dd>
+          <dd><a href="#">HTML</a></dd>
+        </dl>
+        <dl>
+          <dt>在 Read the Docs 上</dt>
+            <dd>
+              <a href="#">项目主页</a>
+            </dd>
+            <dd>
+              <a href="#">构建</a>
+            </dd>
+        </dl>
+        <dl>
+          <dt>Debug</dt>
+          <dd><a href="#" data-toggle="rst-debug-badge">Swap badge position</a></dd>
+        </dl>
+      </div>
+    </div>
+
+</body>
+</html>
