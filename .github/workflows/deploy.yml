@@ -43,7 +43,7 @@ jobs:
         run: |
           cp -rf locales/ draft/docs/locale
           cd draft/docs
-          sphinx-build -b gettext ./ _build/html/gettext
+          sphinx-build -b gettext ./ _build/gettext
           sphinx-intl update -p _build/gettext -l zh_CN
           sphinx-build -D language=en -b html ./ _build/html
           sphinx-build -D language=zh_CN -b html ./ _build/html/zh-CN
