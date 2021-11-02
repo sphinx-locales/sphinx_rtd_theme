@@ -2,7 +2,7 @@ name: deploy
 on:
   push:
     branches:
-      - main
+      - develop
 
 jobs:
   # 这个工作流程包含一个名为 "build" 的 job
@@ -27,22 +27,20 @@ jobs:
       # 安装依赖包
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -e '.[dev]'
+          pip install sphinxcontrib-httpdomain sphinx-intl
           conda install ipykernel
           python -m ipykernel install --user --name ai --display-name "ai"
-      
-      # 安装 HTML 主题 & 国际化
-      - name: Install theme
+
+      # 处理 locale
+      - name: Handling locale
         run: |
-          git clone https://github.com/readthedocs/sphinx_rtd_theme.git draft
-          git clone https://github.com/xinetzone/xin-css.git draft/doc/_static/xin-css
-          git clone https://github.com/xinetzone/w3css.git draft/doc/_static/w3css
+          git clone https://github.com/daobook/sphinx_rtd_theme-locale.git docs/locale
 
       # 构建 Sphinx 文档
       - name: Build the book
         run: |
-          cp -rf locales/ draft/docs/locale
-          cd draft/docs
+          cd docs
           sphinx-build -b gettext ./ _build/gettext
           sphinx-intl update -p _build/gettext -l zh_CN
           sphinx-build -D language=en -b html ./ _build/html
@@ -53,6 +51,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3.6.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: draft/docs/_build/html
+          publish_dir: docs/_build/html
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
