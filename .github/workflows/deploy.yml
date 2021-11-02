@@ -43,9 +43,9 @@ jobs:
           sphinx-intl update -p _build/gettext -l zh_CN
           sphinx-build -D language=en -b html ./ _build/html/
           sphinx-build -D language=zh_CN -b html ./ _build/html/zh-CN
-          cd ..
-          cp -rf docs/_build/ _build
-          rm -rf docs/
+          cd ../..
+          cp -rf draft/docs/_build/ _build
+          rm -rf draft/
 
       # 部署 HTML 到 gh-pages 分支
       - name: GitHub Pages action
