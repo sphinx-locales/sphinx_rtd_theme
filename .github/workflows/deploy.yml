@@ -41,7 +41,6 @@ jobs:
       # 构建 Sphinx 文档
       - name: Build the book
         run: |
-          git clone https://github.com/daobook/sphinx_rtd_theme-locale.git draft/
           cp -rf locales/ draft/docs/locale
           cd draft/docs
           sphinx-build -b gettext ./ _build/html/gettext
